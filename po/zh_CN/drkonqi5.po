@@ -1,0 +1,2676 @@
+# translation of drkonqi.po to 简体中文
+#
+# Wang Jian <lark@linux.net.cn>, 2000,2004.
+# Lie Ex <lilith.ex@gmail.com>, 2009-2010.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2012.
+# Funda Wang <fundawang@gmail.com>, 2010.
+# Chao Feng <chaofeng111@gmail.com>, 2010, 2011, 2013, 2016.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2013, 2014, 2015, 2016.
+# Xuetian Weng <xweng@cs.stonybrook.edu>, 2014.
+# Guo Yunhe <guoyunhebrave@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-15 00:20+0000\n"
+"PO-Revision-Date: 2021-11-08 12:08\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/drkonqi/drkonqi5.pot\n"
+"X-Crowdin-File-ID: 6136\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, Guo Yunhe, Tyson Tan"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org, i@guoyunhe.me, tysontan@tysontan.com"
+
+#: aboutbugreportingdialog.cpp:29
+#, kde-format
+msgctxt "@title title of the dialog"
+msgid "About Bug Reporting - Help"
+msgstr "关于错误报告 - 帮助"
+
+#: aboutbugreportingdialog.cpp:39
+#, kde-format
+msgctxt "@title"
+msgid "Information about bug reporting"
+msgstr "错误报告信息"
+
+#: aboutbugreportingdialog.cpp:41
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid "You can help us improve this software by filing a bug report."
+msgstr "向我们提交一份错误报告，您就可以帮助我们改进这个软件。"
+
+#: aboutbugreportingdialog.cpp:43
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"<note>It is safe to close this dialog. If you do not want to, you do not "
+"have to file a bug report.</note>"
+msgstr "<note>您可以安全地关闭此对话框，这样就无需提交错误报告。</note>"
+
+#: aboutbugreportingdialog.cpp:46
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"In order to generate a useful bug report we need some information about both "
+"the crash and your system. (You may also need to install some debug "
+"packages.)"
+msgstr ""
+"为了生成一份有价值的程序缺陷报告，我们需要收集关于本次崩溃以及本机系统的一些"
+"信息 (为此您可能还需要安装一些调试软件包)。"
+
+#: aboutbugreportingdialog.cpp:52
+#, kde-format
+msgctxt "@title"
+msgid "Bug Reporting Assistant Guide"
+msgstr "程序缺陷报告助手指南"
+
+#: aboutbugreportingdialog.cpp:55
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"This assistant will guide you through the crash reporting process for the "
+"KDE bug tracking system. All the information you enter on the bug report "
+"<strong>must be written in English</strong>, if possible, as KDE is formed "
+"internationally."
+msgstr ""
+"本助手将帮助您提交程序缺陷报告到 KDE 数据库网站。<strong>请使用英语</strong>"
+"输入信息，因为 KDE 是一个国际化的社区。"
+
+#: aboutbugreportingdialog.cpp:62 aboutbugreportingdialog.cpp:190
+#: bugzillaintegration/reportassistantdialog.cpp:78
+#, kde-format
+msgctxt "@title"
+msgid "What do you know about the crash?"
+msgstr "您对崩溃知道多少？"
+
+#: aboutbugreportingdialog.cpp:67
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"In this page you need to describe how much do you know about the desktop and "
+"the application state before it crashed."
+msgstr "请在此页面详细描述桌面和应用程序在崩溃之前的状态。"
+
+#: aboutbugreportingdialog.cpp:70
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you can, describe in as much detail as possible the crash circumstances, "
+"and what you were doing when the application crashed (this information is "
+"going to be requested later.) You can mention: "
+msgstr ""
+"请尽可能详细地描述这次崩溃的发生环境和程序崩溃时您正在进行的操作 (此信息稍后"
+"将会用到)，比如： "
+
+#: aboutbugreportingdialog.cpp:74
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "actions you were taking inside or outside the application"
+msgstr "您当时正在程序之内或者之外进行的操作"
+
+#: aboutbugreportingdialog.cpp:77
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid ""
+"documents or images that you were using and their type/format (later if you "
+"go to look at the report in the bug tracking system, you can attach a file "
+"to the report)"
+msgstr ""
+"您当时正在使用的文档、图像以及它们的类型/格式 (您可以稍后在程序追踪系统中将它"
+"们提交为附件)"
+
+#: aboutbugreportingdialog.cpp:80
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "widgets that you were running"
+msgstr "您正在运行的程序部件"
+
+#: aboutbugreportingdialog.cpp:81
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "the URL of a web site you were browsing"
+msgstr "您正在浏览的网址"
+
+#: aboutbugreportingdialog.cpp:82
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "configuration details of the application"
+msgstr "应用程序的配置细节"
+
+#: aboutbugreportingdialog.cpp:84
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "or other strange things you notice before or after the crash. "
+msgstr "或是其他您在崩溃前后注意到的异状。 "
+
+#: aboutbugreportingdialog.cpp:87
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Screenshots can be very helpful sometimes. You can attach them to the bug "
+"report after it is posted to the bug tracking system."
+msgstr ""
+"屏幕截图有时能提供重要线索。您可以稍后将其作为报告的附件提交到程序缺陷跟踪系"
+"统。"
+
+#: aboutbugreportingdialog.cpp:92
+#, kde-format
+msgctxt "@title"
+msgid "Crash Information (backtrace)"
+msgstr "崩溃信息 (回溯跟踪数据)"
+
+#: aboutbugreportingdialog.cpp:95
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"This page will generate a \"backtrace\" of the crash. This is information "
+"that tells the developers where the application crashed."
+msgstr ""
+"此页面将生成一组本次崩溃的“回溯跟踪数据”，开发人员可以通过它来分析程序崩溃的"
+"位置。"
+
+#: aboutbugreportingdialog.cpp:99
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If the crash information is not detailed enough, you may need to install "
+"some debug packages and reload it (if the <interface>Install Debug Symbols</"
+"interface> button is available you can use it to automatically install the "
+"missing information.)"
+msgstr ""
+"如果崩溃信息不够详细，您可能需要安装一些调试程序包并重新加载它 (如果"
+"<interface>安装调试符号包</interface>按钮可用，您可以直接通过它自动安装缺少的"
+"调试符号包。)"
+
+#: aboutbugreportingdialog.cpp:104
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"You can find more information about backtraces, what they mean, and how they "
+"are useful at <link>%1</link>"
+msgstr ""
+"如需了解更多有关回溯跟踪数据的信息，比如它的含义以及作用，请访问 <link>%1</"
+"link>"
+
+#: aboutbugreportingdialog.cpp:108
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Once you get a useful backtrace (or if you do not want to install the "
+"missing debugging packages) you can continue."
+msgstr ""
+"在您获得了有价值的回溯跟踪数据 (或者您不打算安装缺失的调试软件包) 之后，请继"
+"续操作。"
+
+#: aboutbugreportingdialog.cpp:113
+#, kde-format
+msgctxt "@title"
+msgid "Conclusions"
+msgstr "结论"
+
+#: aboutbugreportingdialog.cpp:116
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Using the quality of the crash information gathered, and your answers on the "
+"previous page, the assistant will tell you if the crash is worth reporting "
+"or not."
+msgstr ""
+"本助手将根据所收集的崩溃信息的品质和您之前的回答来分析此报告是否有上报的价"
+"值。"
+
+#: aboutbugreportingdialog.cpp:120
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If the crash is worth reporting but the application is not supported in the "
+"KDE bug tracking system, you will need to directly contact the maintainer of "
+"the application."
+msgstr ""
+"如果本次崩溃生成了有价值的报告，但 KDE 程序缺陷跟踪系统却不支持此程序，您需要"
+"您直接联系程序的维护人员。"
+
+#: aboutbugreportingdialog.cpp:124
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If the crash is listed as being not worth reporting, and you think the "
+"assistant has made a mistake, you can still manually report the bug by "
+"logging into the bug tracking system. You can also go back and change "
+"information and download debug packages."
+msgstr ""
+"如果本助手显示此份崩溃报告没有上报价值，但是您认为它的判断有误，您可以访问 "
+"KDE 的程序缺陷跟踪系统进行手动报告，也可以返回修改要提交的信息，或下载所需的"
+"调试软件包以生成更有价值的回溯跟踪数据。"
+
+#: aboutbugreportingdialog.cpp:132
+#, kde-format
+msgctxt "@title"
+msgid "Login into the bug tracking system"
+msgstr "登录到 KDE 程序缺陷跟踪系统"
+
+#: aboutbugreportingdialog.cpp:135
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"We may need to contact you in the future to ask for further information. As "
+"we need to keep track of the bug reports, you need to have an account on the "
+"KDE bug tracking system. If you do not have one, you can create one here: "
+"<link>%1</link>"
+msgstr ""
+"我们可能会在日后与您联系以了解本次崩溃的更多情况。为了对报告进行跟踪，您需要"
+"使用 KDE 程序缺陷跟踪系统账户进行登录。如果您尚未创建该账户，请在此创建："
+"<link>%1</link>"
+
+#: aboutbugreportingdialog.cpp:142
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Then, enter your e-mail address and password and press the Login button. You "
+"can use this login to directly access the KDE bug tracking system later."
+msgstr ""
+"请输入您的邮件地址和密码并点击登录按钮，日后您可以使用此账户直接访问 KDE 程序"
+"缺陷跟踪系统。"
+
+#: aboutbugreportingdialog.cpp:146
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"The KWallet dialog may appear when pressing Login to save your password in "
+"the KWallet password system. Also, it will prompt you for the KWallet "
+"password upon loading to autocomplete the login fields if you use this "
+"assistant again."
+msgstr ""
+"KWallet 对话框可能会在您按下登录键时弹出，让您保存密码。如果您在日后再次使用"
+"本助手，KWallet 将要求您提供主密码后才能自动填写登录信息。"
+
+#: aboutbugreportingdialog.cpp:153
+#, kde-format
+msgctxt "@title"
+msgid "List of possible duplicate reports"
+msgstr "可能的重复报告列表"
+
+#: aboutbugreportingdialog.cpp:158
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"This page will search the bug report system for similar crashes which are "
+"possible duplicates of your bug. If there are similar bug reports found, you "
+"can double click on them to see details. Then, read the current bug report "
+"information so you can check to see if they are similar. "
+msgstr ""
+"此页面将在程序缺陷报告数据库中查找描述相似的报告。您可以双击找到的报告查看详"
+"情，检查是否与您准备报告的问题重复。 "
+
+#: aboutbugreportingdialog.cpp:164
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you are very sure your bug is the same as another that is previously "
+"reported, you can set your information to be attached to the existing report."
+msgstr "如果您确定自己遇到的问题与已有报告相同，可以将您的情况附到该报告之后。"
+
+#: aboutbugreportingdialog.cpp:168
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you are unsure whether your report is the same, follow the main options "
+"to tentatively mark your crash as a duplicate of that report. This is "
+"usually the safest thing to do. We cannot uncombine bug reports, but we can "
+"easily merge them."
+msgstr ""
+"如果您无法确定自己情况是否与已有报告相同，请通过主要报告选项将本次崩溃暂时标"
+"记为已有报告的重复项。这通常是最为稳妥的做法，因为程序缺陷报告无法拆分，但可"
+"以轻松合并。"
+
+#: aboutbugreportingdialog.cpp:173
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If not enough possible duplicates are found, or you did not find a similar "
+"report, then you can force it to search for more bug reports (only if the "
+"date range limit is not reached.)"
+msgstr ""
+"如果您找不到足够多的可能重复报告，或是无法找到相似报告，您还可以强制扩大搜索"
+"范围 (仅当没有超过日期范围限制时)。"
+
+#: aboutbugreportingdialog.cpp:177
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you do not find any related reports, your crash information is not useful "
+"enough, and you really cannot give additional information about the crash "
+"context, then it is better to not file the bug report, thereby closing the "
+"assistant."
+msgstr ""
+"如果您没有发现其他相关的报告，崩溃处理程序认为崩溃信息不具备参考价值，而且您"
+"无法提供额外的关联线索，那么建议不要发送此报告，并关闭报告助手。"
+
+#: aboutbugreportingdialog.cpp:184
+#, kde-format
+msgctxt "@title"
+msgid "Details of the bug report and your system"
+msgstr "程序缺陷报告和本机系统详情"
+
+#: aboutbugreportingdialog.cpp:187
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"In this case you need to write a title and description of the crash. Explain "
+"as best you can. "
+msgstr "请在此填写本次崩溃报告的标题和描述，尽可能详尽清晰地说明有关情况。 "
+
+#: aboutbugreportingdialog.cpp:192
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"You can also specify your distribution method (GNU/Linux distribution or "
+"packaging system) or if you compiled the KDE Platform from sources."
+msgstr ""
+"您也可以说明本机软件的发行方式 (GNU/Linux 发行版或包管理系统)。如果您使用了从"
+"源代码编译的 KDE 软件平台，也请就此进行说明。"
+
+#: aboutbugreportingdialog.cpp:195
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"<note>You should <strong>write those information in English</strong>.</note>"
+msgstr "<note><strong>请使用英语填写</strong>。</note>"
+
+#: aboutbugreportingdialog.cpp:199
+#: bugzillaintegration/reportassistantdialog.cpp:147
+#, kde-format
+msgctxt "@title"
+msgid "Sending the Crash Report"
+msgstr "发送崩溃报告"
+
+#: aboutbugreportingdialog.cpp:202
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"The last page will send the bug report to the bug tracking system and will "
+"notify you when it is done. It will then show the web address of the bug "
+"report in the KDE bug tracking system, so that you can look at the report "
+"later."
+msgstr ""
+"最后一个页面将把程序缺陷报告发送到程序缺陷跟踪系统，并在完成后通知您。它接下"
+"来还会显示这份报告在 KDE 程序缺陷跟踪系统中的网址，您可在日后随时查看。"
+
+#: aboutbugreportingdialog.cpp:207
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If the process fails, you can click <interface>Retry</interface> to try "
+"sending the bug report again. If the report cannot be sent because the bug "
+"tracking system has a problem, you can save it to a file to manually report "
+"later."
+msgstr ""
+"如果报告失败，您可以点击<interface>重试</interface>按钮重新发送程序缺陷报告。"
+"如果由于程序缺陷跟踪系统遇到技术故障而无法发送报告，请将报告保存为文件，以便"
+"日后手动发送。"
+
+#: aboutbugreportingdialog.cpp:214
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid "Thank you for being part of KDE!"
+msgstr "感谢您为 KDE 贡献力量！"
+
+#: aboutbugreportingdialog.cpp:216
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you are interested in helping us to keep the KDE bug tracker system clean "
+"and useful, which allows the developers to be more focused on fixing the "
+"real issues,  you are welcome to <link url='https://community.kde.org/"
+"Guidelines_and_HOWTOs/Bug_triaging'>join the BugSquad team</link>."
+msgstr ""
+"KDE 程序缺陷跟踪系统需要时常进行分拣清理才能保持信息的正确有序，让开发人员能"
+"集中力量修复真正的问题。如果您想要为此贡献力量，欢迎加入 <link url='http://"
+"techbase.kde.org/Contribute/Bugsquad'>BugSquad 团队</link>。"
+
+#: applicationdetailsexamples.cpp:23
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"Widgets you have in your desktop and panels (both official and unofficial), "
+"desktop settings (wallpaper plugin, themes) and activities."
+msgstr ""
+"您在桌面和面板上放置的小部件 (包括官方和非官方的)、桌面设置 (壁纸插件、主题"
+"等) 和活动。"
+
+#: applicationdetailsexamples.cpp:27
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"State of Desktop Effects (Compositing), kind of effects enabled, window "
+"decoration, and specific window rules and configuration."
+msgstr ""
+"桌面特效的合成状态、启用的特效类型、窗口装饰，以及特定窗口的规则和配置。"
+
+#: applicationdetailsexamples.cpp:31
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"sites you were visiting, number of opened tabs, plugins you have installed, "
+"and any other non-default setting."
+msgstr ""
+"您当时正在访问的网站、打开的标签页数量、安装的插件，以及任何非默认的设置。"
+
+#: applicationdetailsexamples.cpp:35
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"File view mode, grouping and sorting settings, preview settings, and "
+"directory you were browsing."
+msgstr "文件查看模式、分组和排序设置、预览设置，以及您当时正在浏览的目录。"
+
+#: applicationdetailsexamples.cpp:38
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"Instant Messaging protocols you use, and plugins you have installed "
+"(official and unofficial)."
+msgstr "您使用的即时通讯协议以及已安装的插件 (包括官方和非官方的)。"
+
+#: applicationdetailsexamples.cpp:40
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid "Mail protocols and account-types you use."
+msgstr "您使用的邮件协议和账户类型。"
+
+#: applicationdetailsexamples.cpp:42
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid "Type of the document you were editing."
+msgstr "您当时正在编辑的文档类型。"
+
+#: applicationdetailsexamples.cpp:46
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"Type of media (extension and format) you were watching and/or listening to."
+msgstr "您当时正在播放的媒体类型 (扩展名和格式)。"
+
+#: backtracewidget.cpp:57
+#, kde-format
+msgctxt "@action:button"
+msgid "&Reload"
+msgstr "重新加载(&R)"
+
+#: backtracewidget.cpp:60
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to reload the crash information (backtrace). This is useful "
+"when you have installed the proper debug symbol packages and you want to "
+"obtain a better backtrace."
+msgstr ""
+"点击此按钮可重新加载崩溃信息 (回溯跟踪数据)。在安装了目标软件的调试符号包后，"
+"您可以点击此按钮来生成更有价值的回溯跟踪数据。"
+
+#: backtracewidget.cpp:67
+#, kde-format
+msgctxt "@action:button"
+msgid "&Install Debug Symbols"
+msgstr "安装调试符号包(&I)"
+
+#: backtracewidget.cpp:70
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to install the missing debug symbols packages."
+msgstr "点击此按钮可安装所需的调试符号包。"
+
+#: backtracewidget.cpp:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Symbol installation is unavailable because the application was updated or "
+"uninstalled after it had been started."
+msgstr "无法安装调试符号包，因为该程序在启动后已被更新或卸载。"
+
+#: backtracewidget.cpp:85
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to copy the crash information (backtrace) to the clipboard."
+msgstr "点击此按钮可将崩溃信息 (回溯跟踪数据) 复制到剪贴板。"
+
+#: backtracewidget.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to save the crash information (backtrace) to a file. This is "
+"useful if you want to take a look at it or to report the bug later."
+msgstr ""
+"点击此按钮可将崩溃信息 (回溯跟踪数据) 保存为文件。用于需要检查信息内容或者保"
+"存数据留待日后报告。"
+
+#: backtracewidget.cpp:115
+#, kde-format
+msgid ""
+"<h2>What is a \"backtrace\" ?</h2><p>A backtrace basically describes what "
+"was happening inside the application when it crashed, so the developers may "
+"track down where the mess started. They may look meaningless to you, but "
+"they might actually contain a wealth of useful information.<br />Backtraces "
+"are commonly used during interactive and post-mortem debugging.</p>"
+msgstr ""
+"<h2>“回溯跟踪数据”是什么？</h2><p>回溯跟踪数据大致描述了在应用程序崩溃时它的"
+"内部情况，开发人员可以通过这些数据分析崩溃的原因。虽然您可能读不懂这些数据，"
+"但它们或许会包含一些有用的线索。<br/>回溯跟踪数据通常也被用于进行交互式和崩溃"
+"后调试。</p>"
+
+#: backtracewidget.cpp:135
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:88
+#, kde-format
+msgctxt "@info:status"
+msgid "Loading..."
+msgstr "正在加载..."
+
+#: backtracewidget.cpp:138
+#, kde-format
+msgctxt "@info:status"
+msgid "Generating backtrace... (this may take some time)"
+msgstr "正在生成回溯追踪数据...(可能需要一点时间)"
+
+#: backtracewidget.cpp:189
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Another debugger is currently debugging the same application. The crash "
+"information could not be fetched."
+msgstr "当前有另一个调试器正在调试同一程序，因此无法获取崩溃信息。"
+
+#: backtracewidget.cpp:193
+#, kde-format
+msgctxt "@info:status"
+msgid "The crash information could not be fetched."
+msgstr "无法获取崩溃信息。"
+
+#: backtracewidget.cpp:196
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Another debugging process is attached to the crashed application. Therefore, "
+"the DrKonqi debugger cannot fetch the backtrace. Please close the other "
+"debugger and click <interface>Reload</interface>."
+msgstr ""
+"当前有另一个调试进程正在挂接这个崩溃的程序，DrKonqi 调试器因此无法获取回溯跟"
+"踪数据。请先关闭其他调试器，然后点击<interface>重新加载</interface>按钮。"
+
+#: backtracewidget.cpp:241
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information is useful"
+msgstr "下面生成的崩溃信息具备参考价值"
+
+#: backtracewidget.cpp:244
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information may be useful"
+msgstr "下面生成的崩溃信息可能具备参考价值"
+
+#: backtracewidget.cpp:247
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information is probably not useful"
+msgstr "下面生成的崩溃信息可能不具备参考价值"
+
+#: backtracewidget.cpp:250
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information is not useful"
+msgstr "下面生成的崩溃信息不具备参考价值"
+
+#: backtracewidget.cpp:255
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The rating of this crash information is invalid. This is a bug in DrKonqi "
+"itself."
+msgstr "此崩溃信息的评级无效，因为这是 DrKonqi 自身的程序缺陷造成的。"
+
+#: backtracewidget.cpp:267
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"You can click the <interface>Install Debug Symbols</interface> button in "
+"order to automatically install the missing debugging information packages. "
+"If this method does not work: please read <link url='%1'>How to create "
+"useful crash reports</link> to learn how to get a useful backtrace; install "
+"the needed packages (<link url='%2'>list of files</link>) and click the "
+"<interface>Reload</interface> button."
+msgstr ""
+"您可以点击<interface>安装调试符号包</interface>按钮来立即安装所需的软件包。如"
+"果此方法无效：请阅读<link url='%1'>如何创建有用的崩溃报告</link>，学习如何获"
+"得有用的回溯跟踪数据。在您安装了所需的软件包(<link url='%2'>文件列表</link>) "
+"之后，请点击<interface>重新加载</interface>按钮。"
+
+#: backtracewidget.cpp:285
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Please read <link url='%1'>How to create useful crash reports</link> to "
+"learn how to get a useful backtrace; install the needed packages (<link "
+"url='%2'>list of files</link>) and click the <interface>Reload</interface> "
+"button."
+msgstr ""
+"请阅读<link url='%1'>如何创建有用的崩溃报告</link>，学习如何获取有用的回溯跟"
+"踪数据。在您安装了所需的软件包(<link url='%2'>文件列表</link>) 之后，请点击"
+"<interface>重新加载</interface>按钮。"
+
+#: backtracewidget.cpp:301
+#, kde-format
+msgctxt "@info:status"
+msgid "The debugger has quit unexpectedly."
+msgstr "调试器意外退出。"
+
+#: backtracewidget.cpp:303 backtracewidget.cpp:319
+#, kde-format
+msgctxt "@info:status"
+msgid "The crash information could not be generated."
+msgstr "无法生成崩溃信息。"
+
+#: backtracewidget.cpp:307
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"You could try to regenerate the backtrace by clicking the <interface>Reload</"
+"interface> button."
+msgstr ""
+"您可以尝试点击<interface>重新加载</interface>按钮重新生成回溯跟踪数据。"
+
+#: backtracewidget.cpp:316
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"<strong>The debugger application is missing or could not be launched.</"
+"strong>"
+msgstr "<strong>调试器程序缺失或无法启动。</strong>"
+
+#: backtracewidget.cpp:322
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"<strong>You need to first install the debugger application (%1) then click "
+"the <interface>Reload</interface> button.</strong>"
+msgstr ""
+"<strong>请先安装调试器程序 (%1)，然后点击<interface>重新加载</interface>按"
+"钮。</strong>"
+
+#: backtracewidget.cpp:378
+#, kde-format
+msgctxt "@title:window"
+msgid "Error during the installation of debug symbols"
+msgstr "安装调试符号包时出错"
+
+#: backtracewidget.cpp:409
+#, kde-format
+msgid ""
+"The packages containing debug information for the following application and "
+"libraries are missing:"
+msgstr "缺少下列应用程序和程序库的调试符号包："
+
+#: backtracewidget.cpp:418
+#, kde-format
+msgctxt "messagebox title"
+msgid "Missing debug information packages"
+msgstr "缺少调试符号包"
+
+#: bugzillaintegration/assistantpage_bugzilla_supported_entities.cpp:41
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Thanks for wanting to help improve our software! Unfortunately <resource>%1</"
+"resource> is no longer supported. We may have alternative supported software "
+"on offer on <link url='https://apps.kde.org/'>KDE.org</link>."
+msgstr ""
+"感谢您希望帮助改进我们的软件！然而非常抱歉，我们已经不再为 <resource>%1</"
+"resource> 提供支持。请在 <link url='https://apps.kde.org/'>KDE.org</link> 网"
+"站查找我们提供支持的类似软件。"
+
+#: bugzillaintegration/assistantpage_bugzilla_supported_entities.cpp:50
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Thanks for wanting to help improve our software! Unfortunately version "
+"<resource>%1</resource> of <resource>%2</resource> is no longer supported. "
+"Please upgrade to a newer version if possible. If your distribution does not "
+"provide a newer version you may be able to find alternative installation "
+"options on <link url='https://apps.kde.org/'>KDE.org</link>."
+msgstr ""
+"感谢您帮助改进我们的软件！ 然而非常抱歉，我们已经不再为 <resource>%1</"
+"resource> 版本的 <resource>%2</resource> 提供支持。请尝试将您的软件升级到新"
+"版。如果您的发行版没有提供新版软件，请在 <link url='https://apps.kde."
+"org/'>KDE.org</link> 网站查找其他安装途径。"
+
+#: bugzillaintegration/assistantpage_bugzilla_version.cpp:46
+#, kde-kuit-format
+msgctxt "@info %1 is an error message from the backend"
+msgid "Failed to contact bugs.kde.org: <message>%1</message>"
+msgstr "连接 bugs.kde.org 失败：<message>%1</message>"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:34
+#, kde-format
+msgctxt "@action:button"
+msgid "&Show Contents of the Report"
+msgstr "显示报告内容(&S)"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:37
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:713
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to show the generated report information about this crash."
+msgstr "点击此按钮可显示已生成的崩溃报告信息。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:91
+#, kde-format
+msgctxt "@info"
+msgid ""
+"It appears that this crash is actually the result of an earlier crash in the "
+"compositor and cannot be submitted as it lacks the required information to "
+"resolve the problem."
+msgstr ""
+"此次崩溃应该是之前显示特效混合器的崩溃所造成。由于缺少解决问题所需的信息，此"
+"报告无法提交。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:95
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"KDE developers would appreciate if you could find and attach the crash log "
+"for the compositor. You may be able to retrieve it using the coredumpctl "
+"utility. For more information, see <link url='https://community.kde.org/"
+"Guidelines_and_HOWTOs/Debugging/"
+"How_to_create_useful_crash_reports#Retrieving_a_backtrace_using_coredumpctl'>the "
+"KDE Community Wiki</link>."
+msgstr ""
+"如果您能找到并附上显示特效混合器的崩溃日志，KDE 开发人员将能够更好地确定问题"
+"的原因。你可以使用 coredumpctl 工具获取该日志。详情请见 <link url='https://"
+"community.kde.org/Guidelines_and_HOWTOs/Debugging/"
+"How_to_create_useful_crash_reports#Retrieving_a_backtrace_using_coredumpctl'>KDE "
+"社区百科的相关页面</link>。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:119
+#, kde-format
+msgctxt "@info"
+msgid "The automatically generated crash information is useful."
+msgstr "该自动生成的崩溃信息具备参考价值。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:126
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information lacks some details but may be "
+"still be useful."
+msgstr "该自动生成的崩溃信息虽然缺少一些细节，但可能仍然具备参考价值。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:135
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information lacks important details and it "
+"is probably not helpful."
+msgstr "该自动生成的崩溃信息缺少关键细节，可能不具备参考价值。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:147
+#, kde-format
+msgctxt "@info"
+msgid "The crash information was not generated because it was not needed."
+msgstr "并未生成崩溃信息，因为不需要。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:152
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information does not contain enough "
+"information to be helpful."
+msgstr "该自动生成的崩溃信息并未包含足够信息，因此不具备参考价值。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:156
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<note>You can improve it by installing debugging packages and reloading the "
+"crash on the Crash Information page. You can get help with the Bug Reporting "
+"Guide by clicking on the <interface>Help</interface> button.</note>"
+msgstr ""
+"<note>您可以先安装调试软件包，然后在崩溃信息页点击重新加载以提高数据的参考价"
+"值。点击<interface>帮助</interface>按钮可以获取有关程序缺陷报告向导的说明。</"
+"note>"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:172
+#, kde-format
+msgctxt "@info"
+msgid "The information you can provide could be considered helpful."
+msgstr "您提供的信息可能具备参考价值。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:177
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The information you can provide is not considered helpful enough in this "
+"case."
+msgstr "您提供的信息可能不具备参考价值。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:184
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Your problem has already been reported as bug %1."
+msgstr "您的崩溃报告已经报告为 Bug %1。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:199
+#, kde-format
+msgctxt "@info"
+msgid "This report is considered helpful."
+msgstr "这份报告具有参考价值。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:205
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This application's bugs are reported to the KDE bug tracking system: click "
+"<interface>Next</interface> to start the reporting process. You can manually "
+"report at <link>%1</link>"
+msgstr ""
+"本程序的缺陷将被到 KDE 程序缺陷跟踪系统：点击<interface>下一步</interface>开"
+"始报告进程，您也可以访问 <link>%1</link> 网站手动提交报告。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:217
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This application is not supported in the KDE bug tracking system. Click "
+"<interface>Finish</interface> to report this bug to the application "
+"maintainer. Also, you can manually report at <link>%1</link>."
+msgstr ""
+"KDE 程序缺陷跟踪系统尚不支持此应用程序。点击<interface>完成</interface>可向程"
+"序维护人直接报告此问题。您也可以访问 <link>%1</link> 网站手动进行报告。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:234
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This report does not contain enough information for the developers, so the "
+"automated bug reporting process is not enabled for this crash."
+msgstr ""
+"这份报告所包含的信息不充分，对开发人员而言不具备参考价值，因此本次崩溃并未启"
+"用自动程序缺陷报告进程。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:238
+#, kde-format
+msgctxt "@info"
+msgid "If you wish, you can go back and change your answers. "
+msgstr "您可以返回上一步完善您的回答。 "
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:248
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You can manually report this bug at <link>%1</link>. Click "
+"<interface>Finish</interface> to close the assistant."
+msgstr ""
+"您可以访问 <link>%1</link> 手动报告此程序缺陷。点击<interface>完成</"
+"interface>可关闭助手。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:255
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You can manually report this bug to its maintainer at <link>%1</link>. Click "
+"<interface>Finish</interface> to close the assistant."
+msgstr ""
+"您可以通过 <link>%1</link> 手动向程序维护人员报告此程序缺陷。点击<interface>"
+"完成</interface>可关闭助手。"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:275
+#, kde-format
+msgctxt "@info report to url/mail address"
+msgid "Report to %1"
+msgstr "报告到 %1"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:33
+#, kde-format
+msgctxt "@title:window"
+msgid "Related Bug Report"
+msgstr "相关程序缺陷报告"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel (Go back to the report)"
+msgstr "取消 (返回报告)"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:40
+#, kde-format
+msgctxt "@action:button continue with the selected option and close the dialog"
+msgid "Continue"
+msgstr "继续"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:47
+#, kde-format
+msgid "You are going to mark your crash as related to bug %1"
+msgstr "您将要把此次崩溃标记为与 Bug %1 相关"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:59
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The report is closed because %1. <i>If the crash is the same, adding further "
+"information will be useless and will consume developers' time.</i>"
+msgstr ""
+"由于 %1，此报告已关闭。<b>如果您的崩溃与该报告描述相同，提供更多信息并无助于"
+"问题的解决，只会浪费开发人员的精力。</b>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Bug Description"
+msgstr "程序缺陷描述"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:35
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:703
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry..."
+msgstr "重试..."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:38
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to retry loading the bug report."
+msgstr "点击此按钮可重新加载程序缺陷报告。"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:45
+#, kde-format
+msgctxt "@action:button"
+msgid "Suggest this crash is related"
+msgstr "标记崩溃相关性"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to suggest that the crash you experienced is related to this "
+"bug report"
+msgstr "点击此按钮标记您遇到的崩溃与该程序缺陷报告相关。"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:91
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<link url='%1'>Report's webpage</link>"
+msgstr "<link url='%1'>报告页面</link>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:94
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Loading information about bug %1 from %2...."
+msgstr "正在从 %2 加载 Bug %1 的信息..."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:99
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Backtrace of the crash I experienced:\n"
+"\n"
+msgstr ""
+"我遇到的崩溃的回溯跟踪数据：\n"
+"\n"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:121
+#, kde-format
+msgctxt "@info bug status"
+msgid "Opened (Unconfirmed)"
+msgstr "开放 (未确认)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:125
+#, kde-format
+msgctxt "@info bug status"
+msgid "Opened (Unfixed)"
+msgstr "开放 (未修复)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:134
+#, kde-format
+msgctxt "@info bug resolution, fixed in version"
+msgid "Fixed in version \"%1\""
+msgstr "已在版本“%1”中修复"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:135
+#, kde-format
+msgctxt "@info bug resolution, fixed by kde devs in version"
+msgid "the bug was fixed by KDE developers in version \"%1\""
+msgstr "KDE 开发人员已在版本“%1”中修复了该程序缺陷"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:137
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Fixed"
+msgstr "已修复"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:137
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "the bug was fixed by KDE developers"
+msgstr "KDE 开发人员已经修复此程序缺陷"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:141
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Non-reproducible"
+msgstr "无法复现"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:143
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Duplicate report (Already reported before)"
+msgstr "重复报告 (已被报告)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:145
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Not a valid report/crash"
+msgstr "无效报告/崩溃"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:149
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Not caused by a problem in the KDE's Applications or libraries"
+msgstr "并非由 KDE 应用程序或者程序库引起的问题"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:150
+#, kde-format
+msgctxt "@info bug resolution"
+msgid ""
+"the bug is caused by a problem in an external application or library, or by "
+"a distribution or packaging issue"
+msgstr "该程序缺陷是外部应用程序/程序库问题，或者是发行版或者打包问题。"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:166
+#, kde-format
+msgctxt "@info bug status"
+msgid "Temporarily closed, because of a lack of information"
+msgstr "由于缺少信息而暂时关闭"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:182
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Invalid report information (malformed data). This could mean that the bug "
+"report does not exist, or the bug tracking site is experiencing a problem."
+msgstr ""
+"报告信息无效 (数据格式错误)。这可能是因为该程序缺陷报告并不存在，或者程序缺陷"
+"跟踪系统正在遭遇故障。"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:199
+#, kde-format
+msgctxt "@action:button let the user to choose to read the main report"
+msgid "Yes, read the main report"
+msgstr "是，阅读主报告"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:205
+#, kde-format
+msgctxt "@action:button let the user choose to read the original report"
+msgid "No, let me read the report I selected"
+msgstr "否，让我阅读所选报告"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:209
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The report you selected (bug %1) is already marked as duplicate of bug %2. "
+"Do you want to read that report instead? (recommended)"
+msgstr ""
+"所选程序缺陷报告 (Bug %1)已被标记为 Bug %2 的重复报告。您想要阅读该报告吗？"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:214
+#, kde-format
+msgctxt "@title:window"
+msgid "Nested duplicate detected"
+msgstr "检测到嵌套的重复报告"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:255
+#, kde-format
+msgctxt "comment $number to use as subtitle"
+msgid "<h4>Comment %1:</h4>"
+msgstr "<h4>评论 %1：</h4>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:274
+#, kde-kuit-format
+msgid ""
+"<p><note>The bug report's title is often written by its reporter and may not "
+"reflect the bug's nature, root cause or other visible symptoms you could use "
+"to compare to your crash. Please read the complete report and all the "
+"comments below.</note></p>"
+msgstr ""
+"<p><note>程序缺陷报告的标题往往由报告者自行填写，它不一定能反映该程序缺陷的实"
+"质、成因或者其他可用来对比您所遭遇崩溃的症状。请在下方阅读完整报告和相关讨"
+"论。</note></p>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:281
+#, kde-kuit-format
+msgid ""
+"<p><note>This bug report has %1 duplicate report. That means this is "
+"probably a <strong>common crash</strong>. <i>Please consider only adding a "
+"comment or a note if you can provide new valuable information which was not "
+"already mentioned.</i></note></p>"
+msgid_plural ""
+"<p><note>This bug report has %1 duplicate reports. That means this is "
+"probably a <strong>common crash</strong>. <i>Please consider only adding a "
+"comment or a note if you can provide new valuable information which was not "
+"already mentioned.</i></note></p>"
+msgstr[0] ""
+"<p><note>此程序缺陷报告有 %1 个重复报告。这意味着它可能是一个<strong>常见崩溃"
+"</strong>。<i>如果您可以提供更多有价值的信息，请在该报告的所有讨论后面追加评"
+"论。</i></note></p>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:293
+#, kde-format
+msgctxt "@info bug report title (quoted)"
+msgid "<h3>\"%1\"</h3>"
+msgstr "<h3>“%1”</h3>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:294
+#, kde-format
+msgctxt "@info bug report status"
+msgid "<h4>Bug Report Status: %1</h4>"
+msgstr "<h4>程序缺陷报告状态：%1</h4>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:295
+#, kde-format
+msgctxt "@info bug report product and component"
+msgid "<h4>Affected Component: %1 (%2)</h4>"
+msgstr "<h4>影响的组件：%1 (%2)</h4>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:296
+#, kde-format
+msgctxt "@info bug report description"
+msgid "<h3>Description of the bug</h3><p>%1</p>"
+msgstr "<h3>程序缺陷描述</h3><p>%1</p>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:299
+#, kde-format
+msgctxt "@label:textbox bug report comments (already formatted)"
+msgid "<h2>Additional Comments</h2>%1"
+msgstr "<h2>附注</h2>%1"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:308
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Showing bug %1"
+msgstr "正在显示 Bug %1"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:340
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Error fetching the bug report<nl/><message>%1.</message><nl/>Please wait "
+"some time and try again."
+msgstr "获取程序缺陷报告时出错<nl/><message>%1。</message><nl/>请稍候重试。"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:345
+#, kde-format
+msgctxt "@info"
+msgid "Error fetching the bug report"
+msgstr "获取程序缺陷报告时出错"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:346
+#, kde-format
+msgctxt "@info:status"
+msgid "Error fetching the bug report"
+msgstr "获取程序缺陷报告时出错"
+
+#: bugzillaintegration/reportassistantdialog.cpp:35
+#, kde-format
+msgid "the KDE Bug Tracking System"
+msgstr "KDE 程序缺陷跟踪系统"
+
+#: bugzillaintegration/reportassistantdialog.cpp:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Crash Reporting Assistant"
+msgstr "崩溃报告助手"
+
+#: bugzillaintegration/reportassistantdialog.cpp:62
+#, kde-format
+msgctxt "@title"
+msgid "Welcome to the Reporting Assistant"
+msgstr "欢迎使用报告助手"
+
+#: bugzillaintegration/reportassistantdialog.cpp:86
+#, kde-format
+msgctxt "@title"
+msgid "Fetching the Backtrace (Automatic Crash Information)"
+msgstr "获取回溯跟踪数据 (自动崩溃信息)"
+
+#: bugzillaintegration/reportassistantdialog.cpp:93
+#, kde-format
+msgctxt "@title"
+msgid "Results of the Analyzed Crash Details"
+msgstr "崩溃详情分析结果"
+
+#: bugzillaintegration/reportassistantdialog.cpp:116
+#, kde-format
+msgctxt "@title"
+msgid "Login into %1"
+msgstr "登录到 %1"
+
+#: bugzillaintegration/reportassistantdialog.cpp:125
+#, kde-format
+msgctxt "@title"
+msgid "Look for Possible Duplicate Reports"
+msgstr "查找可能的重复报告"
+
+#: bugzillaintegration/reportassistantdialog.cpp:133
+#, kde-format
+msgctxt "@title"
+msgid "Enter the Details about the Crash"
+msgstr "输入本次崩溃的详情"
+
+#: bugzillaintegration/reportassistantdialog.cpp:140
+#, kde-format
+msgctxt "@title"
+msgid "Preview the Report"
+msgstr "预览报告"
+
+#: bugzillaintegration/reportassistantdialog.cpp:184
+#, kde-format
+msgctxt "@action button to submit report"
+msgid "Submit"
+msgstr "提交"
+
+#: bugzillaintegration/reportassistantdialog.cpp:318
+#, kde-format
+msgctxt "@action:button"
+msgid "Close the assistant"
+msgstr "关闭报告助手"
+
+#: bugzillaintegration/reportassistantdialog.cpp:321
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "取消"
+
+#: bugzillaintegration/reportassistantdialog.cpp:327
+#, kde-format
+msgctxt "@action:button"
+msgid "Save information and close"
+msgstr "保存信息并关闭"
+
+#: bugzillaintegration/reportassistantdialog.cpp:331
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to close the bug reporting assistant? <note>The crash "
+"information is still valid, so you can save the report before closing if you "
+"want.</note>"
+msgstr ""
+"您确定要关闭报告助手吗？<note>您可以在关闭之前先保存此报告的崩溃信息。</note>"
+
+#: bugzillaintegration/reportassistantdialog.cpp:334
+#: bugzillaintegration/reportassistantdialog.cpp:354
+#, kde-format
+msgctxt "@title:window"
+msgid "Close the Assistant"
+msgstr "关闭报告助手"
+
+#: bugzillaintegration/reportassistantdialog.cpp:352
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to close the bug reporting assistant?"
+msgstr "您确定要关闭报告助手吗？"
+
+#: bugzillaintegration/reportassistantpages_base.cpp:103
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This crash information is not useful enough, do you want to try to improve "
+"it? You will need to install some debugging packages."
+msgstr ""
+"该崩溃信息的参考价值不足，您想要尝试改善它吗？这需要安装一些调试软件包。"
+
+#: bugzillaintegration/reportassistantpages_base.cpp:106
+#, kde-format
+msgctxt "@title:window"
+msgid "Crash Information is not useful enough"
+msgstr "崩溃信息参考价值不足"
+
+#: bugzillaintegration/reportassistantpages_base.cpp:130
+#, kde-format
+msgctxt ""
+"@option:check kind of information the user can provide about the crash, %1 "
+"is the application name"
+msgid "What I was doing when the application \"%1\" crashed"
+msgstr "程序“%1”崩溃时我在做什么"
+
+#: bugzillaintegration/reportassistantpages_base.cpp:139
+#, kde-format
+msgctxt "@label examples about information the user can provide"
+msgid "Examples: %1"
+msgstr "示例：%1"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:71
+#, kde-format
+msgctxt "@info:status '1' is replaced with the short URL of the bugzilla "
+msgid "You need to login with your %1 account in order to proceed."
+msgstr "您需要登录 %1 账户才能继续操作。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:75
+#, kde-format
+msgctxt "@action:button"
+msgid "Login"
+msgstr "登录"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:78
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to login to the KDE bug tracking system using the provided e-"
+"mail address and password."
+msgstr "点击此按钮可使用您的邮件地址和密码登录到 KDE 程序缺陷跟踪系统。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:96
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"<note>You need a user account on the <link url='%1'>KDE bug tracking system</"
+"link> in order to file a bug report, because we may need to contact you "
+"later for requesting further information. If you do not have one, you can "
+"freely <link url='%2'>create one here</link>. Please do not use disposable "
+"email accounts.</note>"
+msgstr ""
+"<note>您需要一个 <link url='%1'>KDE 程序缺陷跟踪系统</link>账户来提交错误报"
+"告，以便我们联系您了解更多具体情况。如果您并未注册该账户，请<link url='%2'>在"
+"此免费创建</link>。请勿使用一次性的电子邮件账户进行注册。</note>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:127
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Error when trying to login: <message>%1</message>"
+msgstr "尝试登录时出错：<message>%1</message>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:155
+#, kde-format
+msgctxt "@info:status the user is logged at the bugtracker site as USERNAME"
+msgid "Logged in at the KDE bug tracking system (%1) as: %2."
+msgstr "已登录到 KDE 程序缺陷跟踪系统 (%1)，用户名：%2。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:290
+#, kde-format
+msgctxt "@info:status '1' is a url, '2' the e-mail address"
+msgid "Performing login at %1 as %2..."
+msgstr "正在以用户名 %2 登录到 %1..."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:323
+#, kde-format
+msgctxt "@info:status"
+msgid "<b>Error: Invalid e-mail address or password</b>"
+msgstr "<b>错误：无效的邮件地址或密码</b>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:364
+#, kde-format
+msgctxt "@action/button retry button in error widget"
+msgid "Retry"
+msgstr "重试"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:467
+#, kde-format
+msgctxt "the minimum required length of a text was reached"
+msgid "Minimum length reached"
+msgstr "已满足最低长度要求"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:469
+#, kde-format
+msgctxt "the minimum required length of a text wasn't reached yet"
+msgid "Provide more information"
+msgstr "提供更多信息"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:494
+#, kde-format
+msgctxt "@info/status error"
+msgid "Failed to get platform list"
+msgstr "获取平台列表失败"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:545
+#, kde-format
+msgctxt "@info error when talking to the bugzilla API"
+msgid "An error occurred when talking to bugs.kde.org: %1"
+msgstr "与 bugs.kde.org 服务器通讯失败：%1"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:562
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The description about the crash details does not provide enough information "
+"yet.<br /><br />"
+msgstr "崩溃细节的描述尚未提供足够的信息。<br /><br />"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:567
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The amount of required information is proportional to the quality of the "
+"other information like the backtrace or the reproducibility rate.<br /><br />"
+msgstr ""
+"所需的信息多少与其他信息 (回溯跟踪数据、可复现程度) 的水平有关。<br /><br />"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:576
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Previously, you told DrKonqi that you could provide some contextual "
+"information. Try writing more details about your situation. (even little "
+"ones could help us.)<br /><br />"
+msgstr ""
+"您刚才告诉 DrKonqi 您可以提供一些相关信息。请尽可能在此填写更多详情。(即使是"
+"非常小的细节也可能隐藏有重要线索。)<br /><br />"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:583
+#, kde-format
+msgctxt "@info"
+msgid ""
+"If you cannot provide more information, your report will probably waste "
+"developers' time. Can you tell us more?"
+msgstr ""
+"如果您无法提供更多信息，这份报告可能对开发人员而言没有参考价值。您可以提供更"
+"多信息吗？"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:587
+#, kde-format
+msgid "Yes, let me add more information"
+msgstr "是，我将继续填写"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:590
+#, kde-format
+msgid "No, I cannot add any other information"
+msgstr "否，我没有更多信息"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:592
+#, kde-format
+msgctxt "@title:window"
+msgid "We need more information"
+msgstr "我们需要更多信息"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:630
+#, kde-kuit-format
+msgctxt "@info:tooltip examples of good bug report titles"
+msgid ""
+"<strong>Examples of good titles:</strong><nl />\"Plasma crashed after adding "
+"the Notes widget and writing on it\"<nl />\"Konqueror crashed when accessing "
+"the Facebook application 'X'\"<nl />\"Kopete suddenly closed after resuming "
+"the computer and talking to a MSN buddy\"<nl />\"Kate closed while editing a "
+"log file and pressing the Delete key a couple of times\""
+msgstr ""
+"<strong>良好标题示例：</strong><nl />“添加便笺部件后写入内容时，Plasma 发生崩"
+"溃”<nl />“访问 Facebook 的 X 应用时，Konqueror 发生崩溃”<nl />“当电脑从休眠状"
+"态恢复后，Kopete 在与 MSN 联系人对话时突然关闭”<nl />“使用 Kate 编辑一个日志"
+"文件时，按下 Del 键数次会导致 Kate 关闭”"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:641
+#, kde-format
+msgctxt "@info:tooltip help and examples of good bug descriptions"
+msgid "Describe in as much detail as possible the crash circumstances:"
+msgstr "尽可能详细地描述崩溃时的情况："
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:645
+#, kde-format
+msgctxt "@info:tooltip help and examples of good bug descriptions"
+msgid ""
+"- Detail which actions were you taking inside and outside the application an "
+"instant before the crash."
+msgstr "- 详细描述在程序崩溃前您在程序之内和之外进行了什么操作。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:651
+#, kde-format
+msgctxt "@info:tooltip help and examples of good bug descriptions"
+msgid ""
+"- Note if you noticed any unusual behavior in the application or in the "
+"whole environment."
+msgstr "- 如果您注意到应用程序和整个系统环境存在异常情况，请就此作出说明。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:656
+#, kde-format
+msgctxt "@info:tooltip help and examples of good bug descriptions"
+msgid "- Note any non-default configuration in the application."
+msgstr "- 请对程序所有的非默认配置作出说明。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:661
+#, kde-format
+msgctxt ""
+"@info:tooltip examples of configuration details. the examples are already "
+"translated"
+msgid "Examples: %1"
+msgstr "示例：%1"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:706
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to retry sending the crash report if it failed before."
+msgstr "如果之前的崩溃报告发送失败，请点击此按钮重试。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:710
+#, kde-format
+msgctxt "@action:button"
+msgid "Sho&w Contents of the Report"
+msgstr "显示报告内容(&W)"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:734
+#, kde-format
+msgctxt "@info:status"
+msgid "Sending crash report... (please wait)"
+msgstr "正在发送崩溃报告...(请稍候)"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:767
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Crash report sent.<nl/>URL: <link>%1</link><nl/>Thank you for being part of "
+"KDE. You can now close this window."
+msgstr ""
+"错误报告已发送。<nl/>URL：<link>%1</link><nl/>感谢您为 KDE 贡献力量。您现在可"
+"以关闭此窗口。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:779
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Error sending the crash report:  <message>%1.</message>"
+msgstr "发送崩溃报告时出错：<message>%1。</message>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:801
+#, kde-format
+msgctxt "@info report to KDE bugtracker address"
+msgid "Report to %1"
+msgstr "报告到 %1"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:42
+#, kde-format
+msgctxt "@action:button"
+msgid "Search for more reports"
+msgstr "搜索更多报告"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to search for more similar bug reports"
+msgstr "点击此按钮可搜索相似程序缺陷报告"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry search"
+msgstr "重新搜索"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:53
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to retry the search that previously failed."
+msgstr "如果之前的搜索失败，点击此按钮可重试。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Open selected report"
+msgstr "打开选中的报告"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:61
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to view the information of the selected bug report."
+msgstr "点击此按钮可查看选中的程序缺陷报告的信息。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop searching"
+msgstr "停止搜索"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:69
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to stop the current search."
+msgstr "点击此按钮可停止当前搜索。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:81
+#, kde-format
+msgctxt "@action:button remove the selected item from a list"
+msgid "Remove"
+msgstr "移除"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to remove a selected possible duplicate"
+msgstr "点击此按钮可移除一个选中的重复报告。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:140
+#, kde-format
+msgid "There are no real duplicates"
+msgstr "不存在重复报告"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:142
+#, kde-format
+msgid ""
+"Press this button to declare that, in your opinion and according to your "
+"experience, the reports found as similar do not match the crash you have "
+"experienced, and you believe it is unlikely that a better match would be "
+"found after further review."
+msgstr ""
+"点击此按钮，意味着您认为找到的相似报告均不符合您所遇到的实际崩溃情况，并且您"
+"认为继续搜索也无法找到更加匹配的报告。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:150
+#, kde-format
+msgid "Let me check more reports"
+msgstr "让我检查更多报告"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:152
+#, kde-format
+msgid ""
+"Press this button if you would rather review more reports in order to find a "
+"match for the crash you have experienced."
+msgstr "如果您想要查阅更多报告以发现与您的崩溃情况相匹配的报告，请单击此按钮。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:159
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You have not selected any possible duplicates, or a report to which to "
+"attach your crash information. Have you read all the reports, and can you "
+"confirm that there are no real duplicates?"
+msgstr ""
+"您尚未选择任何可能的重复报告、或是用于附加崩溃信息的报告。您是否已经遍历所有"
+"列出的报告，并确认不存在重复报告？"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:162
+#, kde-format
+msgctxt "@title:window"
+msgid "No selected possible duplicates"
+msgstr "尚未选择可能的重复报告"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:188
+#, kde-format
+msgctxt "@info:status"
+msgid "Searching for duplicates..."
+msgstr "搜索重复报告..."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:207
+#, kde-format
+msgctxt "@info:status"
+msgid "Search stopped."
+msgstr "搜索已停止。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:209
+#, kde-format
+msgctxt "@info:status"
+msgid "Search stopped. Showing results."
+msgstr "搜索已停止。显示结果。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:251
+#, kde-format
+msgctxt "@info bug status"
+msgid "[Open]"
+msgstr "[开放]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:258
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[Fixed]"
+msgstr "[已修复]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:260
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[Non-reproducible]"
+msgstr "[无法复现]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:262
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[Duplicate report]"
+msgstr "[重复报告]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:264
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[Invalid]"
+msgstr "[无效]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:267
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[External problem]"
+msgstr "[外部问题]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:282
+#, kde-format
+msgctxt "@info bug status"
+msgid "[Incomplete]"
+msgstr "[不完整]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:301
+#, kde-format
+msgctxt "@info:status"
+msgid "Showing results."
+msgstr "显示结果。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:342
+#, kde-format
+msgctxt "@info:status"
+msgid "Search Finished. No reports found."
+msgstr "搜索结束。并未找到报告。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:405
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Your crash is a <strong>duplicate</strong> and has already been reported as "
+"<a href=\"%1\">Bug %1</a>."
+msgstr ""
+"您遇到的崩溃存在<strong>重复报告</strong>，它已被报告为 <a href=\"%1\">Bug "
+"%1</a>。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:408
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Your crash has already been reported as <a href=\"%1\">Bug %1</a>, which is "
+"a <strong>duplicate</strong> of <a href=\"%2\">Bug %2</a>"
+msgstr ""
+"您遇到的崩溃已被报告为 <a href=\"%1\">Bug %1</a>，它是 <a href=\"%2\">Bug "
+"%2</a> 的<strong>重复报告</strong>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:414
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Only <strong><a href=\"%1\">attach</a></strong> if you can add needed "
+"information to the bug report."
+msgstr ""
+"请只在您能提供所需信息时<strong><a href=\"%1\">附加</a></strong>到已有报告。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:419
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Your crash has already been reported as <a href=\"%1\">Bug %1</a> which has "
+"been <strong>closed</strong>."
+msgstr ""
+"您遇到的崩溃已被报告为 <a href=\"%1\">Bug %1</a>，它已经被<strong>关闭</"
+"strong>。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:422
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Your crash has already been reported as <a href=\"%1\">Bug %1</a>, which is "
+"a duplicate of the <strong>closed</strong> <a href=\"%2\">Bug %2</a>."
+msgstr ""
+"您遇到的崩溃已被报告为 <a href=\"%1\">Bug %1</a>，它是<strong>已关闭</strong>"
+"的<a href=\"%2\">Bug %2</a>的重复报告。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:448
+#, kde-format
+msgctxt "@info:status"
+msgid "Error fetching the bug report list"
+msgstr "获取程序缺陷报告列表时出错"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:452
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Error fetching the bug report list<nl/><message>%1.</message><nl/>Please "
+"wait some time and try again."
+msgstr ""
+"获取程序缺陷报告列表时出错<nl/><message>%1。</message><nl/>请稍候重试。"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:532
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"The report is going to be <strong>attached</strong> to bug %1. <a href=\"#"
+"\">Cancel</a>"
+msgstr "本报告将<strong>附加</strong>到 Bug %1。<a href=\"#\">取消</a>"
+
+#: bugzillaintegration/reportinformationdialog.cpp:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Contents of the Report"
+msgstr "报告内容"
+
+#: bugzillaintegration/reportinformationdialog.cpp:29
+#, kde-format
+msgctxt "@action:button"
+msgid "&Save to File..."
+msgstr "保存到文件(&S)..."
+
+#: bugzillaintegration/reportinformationdialog.cpp:32
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to save the generated crash report information to a file. "
+"You can use this option to report the bug later."
+msgstr "点击此按钮将生成的崩溃报告保存到文件，以便日后另行报告错误。"
+
+#: bugzillaintegration/reportinterface.cpp:170
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid ""
+"<placeholder>In detail, tell us what you were doing  when the application "
+"crashed.</placeholder>"
+msgstr "<placeholder>请详细告诉我们程序崩溃时您正在做什么。</placeholder>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_rememberLabel)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:17
+#, kde-format
+msgctxt "@label question"
+msgid ""
+"<strong>Do you remember what you were doing prior to the crash?</strong>"
+msgstr "<strong>您还记得在崩溃发生之前在进行什么操作吗？</strong>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationYes)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:44
+#, kde-format
+msgctxt ""
+"@option:radio \"yes\" to the question \"do you remember what were you doing "
+"prior to the crash?\""
+msgid "Yes"
+msgstr "是"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationNo)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:54
+#, kde-format
+msgctxt ""
+"@option:radio \"No\" to the question \"do you remember what were you doing "
+"prior to the crash?\""
+msgid "No"
+msgstr "否"
+
+#. i18n: ectx: property (text), widget (QLabel, m_reproducibleLabel)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:90
+#, kde-format
+msgctxt "@label question"
+msgid ""
+"<strong>Does the application crash again if you repeat the same situation?</"
+"strong>"
+msgstr ""
+"<strong>如果您在相同的情景下重复同样的操作，程序是否再次崩溃？</strong>"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:118
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"If you tried to repeat the situation, select how often the application "
+"crashes"
+msgstr "如果您尝试过复现该情景，请选择此程序的崩溃频率"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:121
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If you tried to repeat the situation, select how often the application "
+"crashes"
+msgstr "如果您尝试过复现该情景，请选择此程序的崩溃频率"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:125
+#, kde-format
+msgctxt "@item:inlistbox  user didn't tried to repeat the crash situation"
+msgid "I did not try again"
+msgstr "我还没有尝试"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:130
+#, kde-format
+msgctxt "@item:inlistbox the crash cannot be reproduce. reproduciblity->never"
+msgid "Never"
+msgstr "从不"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:135
+#, kde-format
+msgctxt "@item:inlistbox the bug can be reproduced sometimes"
+msgid "Sometimes"
+msgstr "有时"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:140
+#, kde-format
+msgctxt "@item:inlistbox the bug can be reproduced every time"
+msgid "Every time"
+msgstr "每次"
+
+#. i18n: ectx: property (text), widget (QLabel, m_informationLabel)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:182
+#, kde-format
+msgctxt "@label question"
+msgid ""
+"<strong>Please select which additional information you can provide:</strong>"
+msgstr "<strong>请选择您可以提供的额外信息：</strong>"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_actionsInsideApp)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:212
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Check this option if you can describe what were you doing inside the "
+"application before it crashed"
+msgstr "如果您可以详细描述应用程序在崩溃之前的操作，请选中此项"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_actionsInsideApp)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:215
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you can describe what were you doing inside the "
+"application before it crashed"
+msgstr "如果您可以详细描述应用程序在崩溃之前的操作，请选中此项"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_unusualSituation)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:225
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Check this option if you can describe any unusual behavior or appearance in "
+"the application or the whole desktop"
+msgstr "如果您可以详细描述应用程序或整个桌面的异常行为或显示情况，请选中此项"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_unusualSituation)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:228
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you can describe any unusual behavior or appearance in "
+"the application or the whole desktop"
+msgstr "如果您可以详细描述应用程序或整个桌面的异常行为或显示情况，请选中此项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_unusualSituation)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:231
+#, kde-format
+msgctxt ""
+"@option:check kind of information the user can provide about the crash"
+msgid "Unusual desktop behavior I noticed"
+msgstr "我注意到的异常桌面行为"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_appSpecificDetails)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:248
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Check this option if you can provide application specific details or "
+"settings that may be related to the crash."
+msgstr "如果您可以提供与本次崩溃相关的具体应用程序细节或者设置，请选中此项。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_appSpecificDetails)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:251
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you can provide application specific details or "
+"settings that may be related to the crash."
+msgstr "如果您可以提供与本次崩溃相关的具体应用程序细节或者设置，请选中此项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_appSpecificDetails)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:254
+#, kde-format
+msgctxt ""
+"@option:check kind of information the user can provide about the crash"
+msgid "Custom settings of the application that may be related"
+msgstr "可能相关的的应用程序自定义设置"
+
+#. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:17
+#, kde-format
+msgctxt "@info"
+msgid ""
+"See if your bug has already been reported. Double click a report in the list "
+"and compare it to yours. You can suggest that your crash is a duplicate of "
+"that report or directly attach your information to it."
+msgstr ""
+"检查您的情况是否已经存在重复报告。双击列表中的报告，与您遇到的情况进行比较。"
+"您可以将本次崩溃标注为与某个报告重复，也可以直接在某个报告后面补充您的信息。"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:72
+#, kde-format
+msgctxt "@title:column"
+msgid "Bug ID"
+msgstr "Bug 编号"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:77
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "描述"
+
+#. i18n: ectx: property (text), widget (QLabel, m_selectedPossibleDuplicatesLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:119
+#, kde-format
+msgctxt ""
+"@label title of a listbox where the possible duplicate bug numbers are put in"
+msgid "Possible duplicates:"
+msgstr "可能的重复报告："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_showOwnBacktraceCheckBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog.ui:81
+#, kde-format
+msgctxt ""
+"@option:check user must check this to preview the own backtrace (in order to "
+"compare it with the one in the showed report)"
+msgid "Show the backtrace of the crash I experienced to compare (advanced)"
+msgstr "显示本次崩溃的回溯跟踪数据以进行对比 (高级)"
+
+#. i18n: ectx: property (text), widget (QLabel, commonCrashLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:42
+#, kde-format
+msgid ""
+"This is likely to be a <strong>common crash</strong>, and a lot of different "
+"cases' details may have been provided already. <i>Proceed only if you can "
+"add new information (not already mentioned). </i>"
+msgstr ""
+"这可能是一个<strong>常见崩溃</strong>，我们已经收到多个可能的相关报告。<b>请"
+"仅在您可以提供新信息时才继续提交报告。</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, proceedLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:115
+#, kde-format
+msgid "<strong>Do you want to proceed with the reporting process?</strong>"
+msgstr "<strong>您想要继续进行报告吗？</strong>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, proceedRadioNo)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:142
+#, kde-format
+msgid "No, do not file &a new bug report, and cancel the assistant"
+msgstr "否，不要提交新报告，关闭助手(&A)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, proceedRadioYes)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:152
+#, kde-format
+msgid "Proceed with reporting &the bug"
+msgstr "继续提交报告(&T)"
+
+#. i18n: ectx: property (text), widget (QLabel, areYouSureLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:182
+#, kde-format
+msgid "<strong>Are you sure this report matches your crash situation?</strong>"
+msgstr "<strong>您确定此报告与您的崩溃情况相符吗？</strong>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, markAsDuplicateCheck)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:209
+#, kde-format
+msgid "Not &really sure: mark as a possible duplicate"
+msgstr "不确定：标记为可能的重复报告(&R)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, attachToBugReportCheck)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:219
+#, kde-format
+msgid "Completely sure: attach my &information to this report"
+msgstr "确定：将我的信息附加到此报告(&I)"
+
+#. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:30
+#, kde-format
+msgctxt "@info"
+msgid "<strong>Please provide the following information in English.</strong>"
+msgstr "<strong>请用英文提供如下信息。</strong>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_titleLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:40
+#, kde-format
+msgctxt "@label:textbox"
+msgid "<strong>Title of the bug report:</strong> (<a href=\"#\">examples</a>)"
+msgstr "<strong>程序缺陷报告标题：</strong>(<a href=\"#\">示例</a>)"
+
+#. i18n: ectx: property (text), widget (QLabel, m_detailsLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:52
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"<strong>Information about the crash:</strong> (<a href=\"#\">help and "
+"examples</a>)"
+msgstr "<strong>崩溃信息：</strong>(<a href=\"#\">帮助和示例</a>)"
+
+#. i18n: ectx: property (accessibleName), widget (QTextEdit, m_detailsEdit)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:61
+#, kde-format
+msgid "Information about the crash text"
+msgstr "崩溃文字信息"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_distributionGroupBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:71
+#, kde-format
+msgctxt "@title:group"
+msgid "Distribution method:"
+msgstr "发行方式："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_compiledSourcesCheckBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:82
+#, kde-format
+msgctxt "@option:check"
+msgid "KDE Platform is compiled from sources"
+msgstr "从源代码编译的 KDE 软件平台"
+
+#. i18n: ectx: property (text), widget (QLabel, m_crashInfoLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:110
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<i>Note:</i> The crash and system information will be automatically added to "
+"the bug report."
+msgstr "<b>注意：</b>崩溃信息与系统信息将被自动附加到程序缺陷报告中。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_userLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:38
+#, kde-format
+msgctxt "@label:textbox bugzilla account email"
+msgid "E-mail Address:"
+msgstr "电子邮件地址："
+
+#. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:45
+#, kde-format
+msgctxt "@label:textbox bugzilla account password"
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (accessibleName), widget (KPasswordLineEdit, m_passwordEdit)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:52
+#, kde-format
+msgid "Password input"
+msgstr "密码输入"
+
+#. i18n: ectx: property (accessibleName), widget (KLineEdit, m_userEdit)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:59
+#, kde-format
+msgid "Username input"
+msgstr "用户名输入"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_savePasswordCheckBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:71
+#, kde-format
+msgctxt "@option:check"
+msgid "Save login information using the KDE Wallet system"
+msgstr "使用 KWallet 保存登录信息"
+
+#. i18n: ectx: property (text), widget (QLabel, m_previewDescriptionLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:19
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This is a preview of the report's contents which will be sent. \n"
+"\n"
+"If you want to modify it go to the previous pages."
+msgstr ""
+"这是您要发送的报告内容预览。 \n"
+"\n"
+"如果您还想修改它，请返回上一页。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_launchPageOnFinish)
+#: bugzillaintegration/ui/assistantpage_bugzilla_send.ui:75
+#, kde-format
+msgctxt "@option:check"
+msgid "Open the bug report page when clicking the Finish button"
+msgstr "点击完成按钮时打开程序缺陷报告页面"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
+#: bugzillaintegration/ui/assistantpage_bugzilla_send.ui:98
+#, kde-format
+msgctxt "@option:check"
+msgid "Restart the application when clicking the Finish button"
+msgstr "点击完成按钮时重新启动程序"
+
+#. i18n: status message while waiting for bugzilla
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: bugzillaintegration/ui/assistantpage_bugzilla_supported_entities.ui:47
+#, kde-format
+msgid "Resolving Bugzilla Product"
+msgstr "正在确定 Bugzilla 产品"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: bugzillaintegration/ui/assistantpage_bugzilla_version.ui:47
+#, kde-format
+msgid "Trying to contact bugs.kde.org..."
+msgstr "正在尝试连接 bugs.kde.org..."
+
+#. i18n: @action:button retry talking to api if it failed before
+#. i18n: ectx: property (text), widget (QPushButton, retryButton)
+#: bugzillaintegration/ui/assistantpage_bugzilla_version.ui:126
+#, kde-format
+msgid "Retry"
+msgstr "重试"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
+#: bugzillaintegration/ui/assistantpage_conclusions.ui:73
+#, kde-format
+msgid "Restart the application when clicking the Finish button"
+msgstr "点击完成按钮时重新启动程序"
+
+#. i18n: ectx: property (text), widget (QLabel, m_introLabel)
+#: bugzillaintegration/ui/assistantpage_introduction.ui:17
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This assistant will analyze the crash information and guide you through the "
+"bug reporting process."
+msgstr "本助手将分析崩溃信息，并引导您完成程序缺陷报告过程。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_warningLabel)
+#: bugzillaintegration/ui/assistantpage_introduction.ui:77
+#, kde-format
+msgctxt "@info note before starting the bug reporting process"
+msgid ""
+"<p><i>Note:</i> Since communication between you and the developers is "
+"required for effective debugging, to continue reporting this bug <strong>it "
+"is required for you to agree that developers may contact you.</strong></"
+"p><p>Feel free to close this dialog if you do not accept this.</p>"
+msgstr ""
+"<p><b>注意：</b>为了有效排查程序问题，您和开发人员之间的沟通必不可少。继续进"
+"行程序缺陷报告意味着<strong>您同意开发人员与您联系。</strong></p><p>如果您不"
+"同意此条件，请关闭本对话框。</p>"
+
+#: debugpackageinstaller.cpp:51
+#, kde-format
+msgctxt "@info:progress"
+msgid "Requesting installation of missing debug symbols packages..."
+msgstr "正在请求安装缺失的调试符号包..."
+
+#: debugpackageinstaller.cpp:53
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: debugpackageinstaller.cpp:58
+#, kde-format
+msgctxt "@title:window"
+msgid "Missing debug symbols"
+msgstr "缺少调试符号"
+
+#: debugpackageinstaller.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid "Could not find debug symbol packages for this application."
+msgstr "找不到此程序的调试符号包。"
+
+#: debugpackageinstaller.cpp:98
+#, kde-format
+msgctxt "@info"
+msgid ""
+"An error was encountered during the installation of the debug symbol "
+"packages."
+msgstr "安装调试符号包时出错。"
+
+#: drkonqi.cpp:147
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Report saved to <filename>%1</filename>."
+msgstr "报告已保存到 <filename>%1</filename>。"
+
+#: drkonqi.cpp:149
+#, kde-format
+msgctxt "@info"
+msgid "Could not create a file in which to save the report."
+msgstr "无法创建用于保存报告的文件"
+
+#: drkonqi.cpp:156
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Filename"
+msgstr "选择文件名"
+
+#: drkonqi.cpp:184
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot open file <filename>%1</filename> for writing."
+msgstr "无法打开文件 <filename>%1</filename> 进行写入。"
+
+#: drkonqidialog.cpp:59
+#, kde-format
+msgctxt "@title:tab general information"
+msgid "&General"
+msgstr "常规(&G)"
+
+#: drkonqidialog.cpp:63
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Developer Information"
+msgstr "开发人员信息(&D)"
+
+#: drkonqidialog.cpp:98
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
+msgstr "<para>非常抱歉，<application>%1</application> 已经意外关闭。</para>"
+
+#: drkonqidialog.cpp:106
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>As the Crash Handler itself has failed, the automatic reporting "
+"process is disabled to reduce the risks of failing again.<nl /><nl />Please, "
+"<link url='%1'>manually report</link> this error to the KDE bug tracking "
+"system. Do not forget to include the backtrace from the <interface>Developer "
+"Information</interface> tab.</para>"
+msgstr ""
+"<para>由于程序崩溃处理工具本身出错，为了降低再次出错的风险，自动报告进程已被"
+"禁用。<nl/><nl/>请将此问题<link url='%1'>手动报告</link>到 KDE 程序缺陷追踪系"
+"统，并记得附上<interface>开发人员信息</interface>一栏中的回溯跟踪数据。</"
+"para>"
+
+#: drkonqidialog.cpp:116
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The reporting assistant is disabled because the crash handler dialog "
+"was started in safe mode.<nl />You can manually report this bug to %1 "
+"(including the backtrace from the <interface>Developer Information</"
+"interface> tab.)</para>"
+msgstr ""
+"<para>由于程序崩溃处理工具对话框在安全模式下启动，报告助手已被禁用。<nl />您"
+"可以手动发送此报告到 %1 (请附上<interface>开发人员信息</interface>标签页中的"
+"回溯跟踪数据。)</para>"
+
+#: drkonqidialog.cpp:125
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The reporting assistant is disabled because the crashed application "
+"appears to have been updated or uninstalled since it had been started. This "
+"prevents accurate crash reporting and can also be the cause of this crash.</"
+"para><para>After updating it is always a good idea to log out and back in to "
+"make sure the update is fully applied and will not cause any side effects.</"
+"para>"
+msgstr ""
+"<para>由于崩溃的程序似乎在启动之后被更新或卸载，报告助手已被禁用。上述情况会"
+"造成崩溃报告的内容失准，而且该情况本身很可能就是程序崩溃的原因。</para><para>"
+"建议您在更新软件之后退出并重新登录系统，这将确保软件更新能得到完整应用并避免"
+"发生意外情况。</para>"
+
+#: drkonqidialog.cpp:134
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>You can help us improve KDE Software by reporting this error.<nl /"
+"><link url='%1'>Learn more about bug reporting.</link></para>"
+msgstr ""
+"<para>您可以报告此次错误，帮助我们改进 KDE 软件。<nl /><link url='%1'>查看程"
+"序缺陷报告的更多相关信息。</link></para>"
+
+#: drkonqidialog.cpp:141
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>You cannot report this error, because <application>%1</application> "
+"does not provide a bug reporting address.</para>"
+msgstr ""
+"<para>您无法报告此错误，因为 <application>%1</application> 并未提供接收报告的"
+"地址。</para>"
+
+#: drkonqidialog.cpp:149
+#, kde-format
+msgctxt "@label"
+msgid "Details:"
+msgstr "详情："
+
+#: drkonqidialog.cpp:153
+#, kde-kuit-format
+msgctxt "@info Note the time information is divided into date and time parts"
+msgid ""
+"<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) "
+"Time: %5 %6</para>"
+msgstr ""
+"<para>可执行程序：<application>%1</application> 进程编号：%2 信号：%3 (%4) 时"
+"间：%5 %6</para>"
+
+#: drkonqidialog.cpp:183
+#, kde-format
+msgctxt ""
+"@action:button this is the debug menu button label which contains the "
+"debugging applications"
+msgid "&Debug"
+msgstr "调试(&D)"
+
+#: drkonqidialog.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Starts a program to debug the crashed application."
+msgstr "启动崩溃调试程序。"
+
+#: drkonqidialog.cpp:207
+#, kde-format
+msgctxt "@action:button"
+msgid "Report &Bug"
+msgstr "报告程序缺陷(&B)"
+
+#: drkonqidialog.cpp:209
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Starts the bug report assistant."
+msgstr "启动程序缺陷报告助手。"
+
+#: drkonqidialog.cpp:218
+#, kde-format
+msgctxt "@action:button"
+msgid "&Restart Application"
+msgstr "重新启动程序(&R)"
+
+#: drkonqidialog.cpp:221
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to restart the crashed application."
+msgstr "点击此按钮重新启动崩溃的应用程序。"
+
+#: drkonqidialog.cpp:231
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close this dialog (you will lose the crash information.)"
+msgstr "关闭此对话框 (崩溃信息将丢失)。"
+
+#: drkonqidialog.cpp:240
+#, kde-format
+msgctxt "@action:inmenu 1 is the debugger name"
+msgid "Debug in %1"
+msgstr "正在使用 %1 调试"
+
+#: main.cpp:43
+#, kde-format
+msgid "The KDE Crash Handler gives the user feedback if a program has crashed."
+msgstr "KDE 程序崩溃处理工具用于在程序崩溃时向用户提供反馈信息。"
+
+#: main.cpp:113
+#, kde-format
+msgid "The KDE Crash Handler"
+msgstr "KDE 程序崩溃处理工具"
+
+#: main.cpp:117
+#, kde-format
+msgid "(C) 2000-2018, The DrKonqi Authors"
+msgstr "(C) 2000-2018，DrKonqi 开发团队"
+
+#: main.cpp:118
+#, kde-format
+msgctxt "@info:credit"
+msgid "Hans Petter Bieker"
+msgstr "Hans Petter Bieker"
+
+#: main.cpp:119
+#, kde-format
+msgctxt "@info:credit"
+msgid "Dario Andres Rodriguez"
+msgstr "Dario Andres Rodriguez"
+
+#: main.cpp:120
+#, kde-format
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: main.cpp:121
+#, kde-format
+msgctxt "@info:credit"
+msgid "A. L. Spehr"
+msgstr "A. L. Spehr"
+
+#: main.cpp:128
+#, kde-format
+msgctxt "@info:shell"
+msgid "The signal <number> that was caught"
+msgstr "捕获的信号<号码>"
+
+#: main.cpp:129
+#, kde-format
+msgctxt "@info:shell"
+msgid "<Name> of the program"
+msgstr "程序的<名称>"
+
+#: main.cpp:130
+#, kde-format
+msgctxt "@info:shell"
+msgid "<Path> to the executable"
+msgstr "可执行程序的<路径>"
+
+#: main.cpp:131
+#, kde-format
+msgctxt "@info:shell"
+msgid "The <version> of the program"
+msgstr "程序的<版本>"
+
+#: main.cpp:132
+#, kde-format
+msgctxt "@info:shell"
+msgid "The bug <address> to use"
+msgstr "程序缺陷报告的<网址>"
+
+#: main.cpp:133
+#, kde-format
+msgctxt "@info:shell"
+msgid "Translated <name> of the program"
+msgstr "程序的<译名>"
+
+#: main.cpp:134
+#, kde-format
+msgctxt "@info:shell"
+msgid "Bugzilla product name"
+msgstr "Bugzilla 产品名称"
+
+#: main.cpp:135
+#, kde-format
+msgctxt "@info:shell"
+msgid "The <PID> of the program"
+msgstr "程序的<进程号>"
+
+#: main.cpp:136
+#, kde-format
+msgctxt "@info:shell"
+msgid "Startup <ID> of the program"
+msgstr "程序的启动<编号>"
+
+#: main.cpp:137
+#, kde-format
+msgctxt "@info:shell"
+msgid "The program was started by kdeinit"
+msgstr "程序由 kdeinit 启动"
+
+#: main.cpp:138
+#, kde-format
+msgctxt "@info:shell"
+msgid "Disable arbitrary disk access"
+msgstr "禁用磁盘任意访问"
+
+#: main.cpp:139
+#, kde-format
+msgctxt "@info:shell"
+msgid "The program has already been restarted"
+msgstr "程序已经重新启动"
+
+#: main.cpp:142
+#, kde-format
+msgctxt "@info:shell"
+msgid "Keep the program running and generate the backtrace at startup"
+msgstr "保持程序运行，启动时生成回溯跟踪数据"
+
+#: main.cpp:144
+#, kde-format
+msgctxt "@info:shell"
+msgid "The <thread id> of the failing thread"
+msgstr "失败线程的<线程号>"
+
+#: main.cpp:145
+#, kde-format
+msgctxt "@info:shell"
+msgid "Do not show a notification but launch the debug dialog directly"
+msgstr "不显示通知，直接启动调试对话框"
+
+#: statusnotifier.cpp:35
+#, kde-format
+msgctxt "Placeholder is an application name; it crashed"
+msgid "%1 Closed Unexpectedly"
+msgstr "%1 意外关闭"
+
+#: statusnotifier.cpp:65
+#, kde-format
+msgid "Please report this error to help improve this software."
+msgstr "请报告此错误，帮助改进这款软件。"
+
+#: statusnotifier.cpp:72
+#, kde-format
+msgid "Report &Bug"
+msgstr "报告程序缺陷(&B)"
+
+#: statusnotifier.cpp:78
+#, kde-format
+msgid "&Restart Application"
+msgstr "重新启动程序(&R)"
+
+#: statusnotifier.cpp:89
+#, kde-format
+msgctxt "Allows the user to hide this notifier item"
+msgid "Hide"
+msgstr "隐藏"
+
+#: statusnotifier.cpp:132
+#, kde-format
+msgctxt "Notification text"
+msgid "Please report this error to help improve this software."
+msgstr "请报告此错误，帮助改进这款软件。"
+
+#: statusnotifier.cpp:133
+#, kde-format
+msgctxt "Notification text"
+msgid "The application closed unexpectedly."
+msgstr "应用程序意外关闭。"
+
+#: statusnotifier.cpp:144
+#, kde-format
+msgctxt "Notification action button, keep short"
+msgid "Report Bug"
+msgstr "报告程序缺陷"
+
+#: statusnotifier.cpp:147
+#, kde-format
+msgctxt "Notification action button, keep short"
+msgid "Restart App"
+msgstr "重新启动程序"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_toggleBacktraceCheckBox)
+#: ui/backtracewidget.ui:124
+#, kde-format
+msgid "Show backtrace content (advanced)"
+msgstr "显示回溯数据内容 (高级)"

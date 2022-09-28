@@ -1,0 +1,2831 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2014, 2015, 2016, 2017, 2018, 2019, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-15 00:20+0000\n"
+"PO-Revision-Date: 2021-08-07 10:07+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stefan Asserhäll"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "stefan.asserhall@bredband.net"
+
+#: aboutbugreportingdialog.cpp:29
+#, kde-format
+msgctxt "@title title of the dialog"
+msgid "About Bug Reporting - Help"
+msgstr "Om felrapportering - Hjälp"
+
+#: aboutbugreportingdialog.cpp:39
+#, kde-format
+msgctxt "@title"
+msgid "Information about bug reporting"
+msgstr "Information om felrapportering"
+
+#: aboutbugreportingdialog.cpp:41
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid "You can help us improve this software by filing a bug report."
+msgstr ""
+"Du kan hjälpa till att förbättra den här programvaran genom att skicka in en "
+"felrapport."
+
+#: aboutbugreportingdialog.cpp:43
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"<note>It is safe to close this dialog. If you do not want to, you do not "
+"have to file a bug report.</note>"
+msgstr ""
+"<note>Det är ofarligt att stänga dialogrutan. Om du inte vill, behöver du "
+"inte skicka in någon felrapport.</note>"
+
+#: aboutbugreportingdialog.cpp:46
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"In order to generate a useful bug report we need some information about both "
+"the crash and your system. (You may also need to install some debug "
+"packages.)"
+msgstr ""
+"För att skapa en användbar felrapport behövs en del information om både "
+"kraschen och systemet. (Dessutom kanske vissa felsökningspaket behöver "
+"installeras.)"
+
+#: aboutbugreportingdialog.cpp:52
+#, kde-format
+msgctxt "@title"
+msgid "Bug Reporting Assistant Guide"
+msgstr "Felrapporteringsguide"
+
+#: aboutbugreportingdialog.cpp:55
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"This assistant will guide you through the crash reporting process for the "
+"KDE bug tracking system. All the information you enter on the bug report "
+"<strong>must be written in English</strong>, if possible, as KDE is formed "
+"internationally."
+msgstr ""
+"Guiden leder dig igenom felrapporteringsprocessen för KDE:s "
+"felspårningssystem. All information som du skriver in i felrapporten "
+"<strong>måste vara skriven på engelska</strong>, om möjligt, eftersom KDE är "
+"en internationell organisation."
+
+#: aboutbugreportingdialog.cpp:62 aboutbugreportingdialog.cpp:190
+#: bugzillaintegration/reportassistantdialog.cpp:78
+#, kde-format
+msgctxt "@title"
+msgid "What do you know about the crash?"
+msgstr "Vad känner du till om kraschen?"
+
+#: aboutbugreportingdialog.cpp:67
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"In this page you need to describe how much do you know about the desktop and "
+"the application state before it crashed."
+msgstr ""
+"På den här sidan måste du beskriva hur mycket du vet om skrivbordets och "
+"programmets tillstånd innan det kraschade."
+
+#: aboutbugreportingdialog.cpp:70
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you can, describe in as much detail as possible the crash circumstances, "
+"and what you were doing when the application crashed (this information is "
+"going to be requested later.) You can mention: "
+msgstr ""
+"Om du kan, beskriv med så mycket detaljer som möjligt, omständigheterna för "
+"kraschen, och vad du gjorde när programmet kraschade (informationen kommer "
+"att begäras senare). Du kan nämna: "
+
+#: aboutbugreportingdialog.cpp:74
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "actions you were taking inside or outside the application"
+msgstr "åtgärder du utförde inne i eller utanför programmet"
+
+#: aboutbugreportingdialog.cpp:77
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid ""
+"documents or images that you were using and their type/format (later if you "
+"go to look at the report in the bug tracking system, you can attach a file "
+"to the report)"
+msgstr ""
+"dokument eller bilder du använde och deras typ eller format (om du senare "
+"tittar på rapporten i felspårningssystemet, kan du bilägga en fil till "
+"rapporten)"
+
+#: aboutbugreportingdialog.cpp:80
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "widgets that you were running"
+msgstr "grafiska komponenter som du körde"
+
+#: aboutbugreportingdialog.cpp:81
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "the URL of a web site you were browsing"
+msgstr "webbadressen för en webbplats du besökte"
+
+#: aboutbugreportingdialog.cpp:82
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "configuration details of the application"
+msgstr "programmets inställningsinformation"
+
+#: aboutbugreportingdialog.cpp:84
+#, kde-kuit-format
+msgctxt "@info/rich crash situation example"
+msgid "or other strange things you notice before or after the crash. "
+msgstr "eller andra underligheter som du märkte innan eller efter kraschen. "
+
+#: aboutbugreportingdialog.cpp:87
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Screenshots can be very helpful sometimes. You can attach them to the bug "
+"report after it is posted to the bug tracking system."
+msgstr ""
+"Skärmbilder kan ibland vara till stor hjälp. Du kan lägga till dem i "
+"felrapporten efter den har skickats in till felspårningssystemet."
+
+#: aboutbugreportingdialog.cpp:92
+#, kde-format
+msgctxt "@title"
+msgid "Crash Information (backtrace)"
+msgstr "Kraschinformation (bakåtspårning)"
+
+#: aboutbugreportingdialog.cpp:95
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"This page will generate a \"backtrace\" of the crash. This is information "
+"that tells the developers where the application crashed."
+msgstr ""
+"Den här sidan skapar en \"bakåtspårning\" av kraschen. Informationen talar "
+"om för utvecklarna var programmet kraschade."
+
+#: aboutbugreportingdialog.cpp:99
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If the crash information is not detailed enough, you may need to install "
+"some debug packages and reload it (if the <interface>Install Debug Symbols</"
+"interface> button is available you can use it to automatically install the "
+"missing information.)"
+msgstr ""
+"Om kraschinformationen inte är nog detaljrik, kanske du måste installera "
+"några felsökningspaket och läsa in den igen (om knappen "
+"<interface>Installera felsökningssymboler</interface> är tillgänglig, kan du "
+"använda den för att automatiskt installera saknad information)."
+
+#: aboutbugreportingdialog.cpp:104
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"You can find more information about backtraces, what they mean, and how they "
+"are useful at <link>%1</link>"
+msgstr ""
+"Du hittar mer information om bakåtspårningar, vad de betyder, och hur de är "
+"användbara på <link>%1</link>"
+
+#: aboutbugreportingdialog.cpp:108
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Once you get a useful backtrace (or if you do not want to install the "
+"missing debugging packages) you can continue."
+msgstr ""
+"När en användbar bakåtspårning har erhållits (eller om du inte vill "
+"installera saknade felsökningspaket) kan du fortsätta."
+
+#: aboutbugreportingdialog.cpp:113
+#, kde-format
+msgctxt "@title"
+msgid "Conclusions"
+msgstr "Slutsatser"
+
+#: aboutbugreportingdialog.cpp:116
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Using the quality of the crash information gathered, and your answers on the "
+"previous page, the assistant will tell you if the crash is worth reporting "
+"or not."
+msgstr ""
+"Med användning av kvaliteten hos den insamlade kraschinformationen, och dina "
+"svar på föregående sida, talar guiden om för dig om kraschen är värd att "
+"rapportera eller inte."
+
+#: aboutbugreportingdialog.cpp:120
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If the crash is worth reporting but the application is not supported in the "
+"KDE bug tracking system, you will need to directly contact the maintainer of "
+"the application."
+msgstr ""
+"Om kraschen är värd att rapportera, men programmet inte stöds av KDE:s "
+"felspårningssystem, måste du kontakta programmets utvecklare direkt."
+
+#: aboutbugreportingdialog.cpp:124
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If the crash is listed as being not worth reporting, and you think the "
+"assistant has made a mistake, you can still manually report the bug by "
+"logging into the bug tracking system. You can also go back and change "
+"information and download debug packages."
+msgstr ""
+"Om kraschen beskrivs som inte värd att rapportera, och du anser att guiden "
+"har gjort ett misstag, kan du fortfarande rapportera felet manuellt genom "
+"att logga in på felspårningssystemet. Du kan också gå tillbaka och ändra "
+"information och ladda ner felsökningspaket."
+
+#: aboutbugreportingdialog.cpp:132
+#, kde-format
+msgctxt "@title"
+msgid "Login into the bug tracking system"
+msgstr "Logga in på KDE:s felspårningssystem"
+
+#: aboutbugreportingdialog.cpp:135
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"We may need to contact you in the future to ask for further information. As "
+"we need to keep track of the bug reports, you need to have an account on the "
+"KDE bug tracking system. If you do not have one, you can create one here: "
+"<link>%1</link>"
+msgstr ""
+"Vi kan behöva kontakta dig i framtiden för att fråga om ytterligare "
+"information. Eftersom vi behöver hålla reda på felrapporterna, måste du ha "
+"ett konto på KDE:s felspårningssystem. Om du inte har ett, kan du skapa ett "
+"här: <link>%1</link>"
+
+#: aboutbugreportingdialog.cpp:142
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Then, enter your e-mail address and password and press the Login button. You "
+"can use this login to directly access the KDE bug tracking system later."
+msgstr ""
+"Skriv därefter in din e-postadress och lösenord och klicka på knappen Logga "
+"in. Du kan använda inloggningen för att senare direkt komma åt KDE:s "
+"felspårningssystem."
+
+#: aboutbugreportingdialog.cpp:146
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"The KWallet dialog may appear when pressing Login to save your password in "
+"the KWallet password system. Also, it will prompt you for the KWallet "
+"password upon loading to autocomplete the login fields if you use this "
+"assistant again."
+msgstr ""
+"Plånbokens dialogruta kan dyka upp när du klickar på Logga in, för att spara "
+"lösenordet i plånbokens lösenordssystem. Dessutom frågar den efter "
+"plånbokens lösenord vid laddning för att automatiskt fylla i "
+"inloggningsfälten om du använder guiden igen."
+
+#: aboutbugreportingdialog.cpp:153
+#, kde-format
+msgctxt "@title"
+msgid "List of possible duplicate reports"
+msgstr "Lista med möjlig dubbletter"
+
+#: aboutbugreportingdialog.cpp:158
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"This page will search the bug report system for similar crashes which are "
+"possible duplicates of your bug. If there are similar bug reports found, you "
+"can double click on them to see details. Then, read the current bug report "
+"information so you can check to see if they are similar. "
+msgstr ""
+"Sidan söker efter liknande krascher i felrapporteringssystemet, som kan vara "
+"möjliga dubbletter av ditt fel. Om liknande felrapporter hittas, kan du "
+"dubbelklicka på dem för att se detaljinformation. Läs därefter den aktuella "
+"felrapportens information så att du kan kontrollera om den är liknande."
+
+#: aboutbugreportingdialog.cpp:164
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you are very sure your bug is the same as another that is previously "
+"reported, you can set your information to be attached to the existing report."
+msgstr ""
+"Om du är helt säker på att ditt fel är samma som ett annat som tidigare har "
+"rapporterats, kan du ange att din information ska bifogas den befintliga "
+"rapporten."
+
+#: aboutbugreportingdialog.cpp:168
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you are unsure whether your report is the same, follow the main options "
+"to tentatively mark your crash as a duplicate of that report. This is "
+"usually the safest thing to do. We cannot uncombine bug reports, but we can "
+"easily merge them."
+msgstr ""
+"Om du är osäker på om din rapport är likadan, följ huvudalternativen för att "
+"preliminärt markera din krasch som en dubblett av den rapporten. Det är "
+"oftast det säkraste man kan göra. Vi kan inte dela på felrapporter, men vi "
+"kan enkelt foga samman dem."
+
+#: aboutbugreportingdialog.cpp:173
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If not enough possible duplicates are found, or you did not find a similar "
+"report, then you can force it to search for more bug reports (only if the "
+"date range limit is not reached.)"
+msgstr ""
+"Om inte tillräckligt antal möjliga dubbletter hittas, eller du inte hittade "
+"en liknande rapport, kan du tvinga fram en sökning efter fler felrapporter "
+"(men bara om datumintervallets gräns inte är nådd)."
+
+#: aboutbugreportingdialog.cpp:177
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you do not find any related reports, your crash information is not useful "
+"enough, and you really cannot give additional information about the crash "
+"context, then it is better to not file the bug report, thereby closing the "
+"assistant."
+msgstr ""
+"Om du inte hittar några relaterade rapporter, din kraschinformation inte är "
+"nog användbar, och du verkligen inte kan ge ytterligare information om "
+"kraschens sammanhang, är det bättre att inte skicka in en felrapport, och "
+"därigenom stänga guiden."
+
+#: aboutbugreportingdialog.cpp:184
+#, kde-format
+msgctxt "@title"
+msgid "Details of the bug report and your system"
+msgstr "Detaljinformation om felrapporten och systemet"
+
+#: aboutbugreportingdialog.cpp:187
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"In this case you need to write a title and description of the crash. Explain "
+"as best you can. "
+msgstr ""
+"I detta fall måste du skriva in en rubrik och beskrivning av kraschen. "
+"Förklara den så bra du kan. "
+
+#: aboutbugreportingdialog.cpp:192
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"You can also specify your distribution method (GNU/Linux distribution or "
+"packaging system) or if you compiled the KDE Platform from sources."
+msgstr ""
+"Du kan också ange distribution (GNU/Linux-distribution eller paketsystem) "
+"eller om du kompilerat KDE:s plattform från källkod."
+
+#: aboutbugreportingdialog.cpp:195
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"<note>You should <strong>write those information in English</strong>.</note>"
+msgstr ""
+"<note>Du måste <strong>skriva in informationen på engelska</strong>.</note>"
+
+#: aboutbugreportingdialog.cpp:199
+#: bugzillaintegration/reportassistantdialog.cpp:147
+#, kde-format
+msgctxt "@title"
+msgid "Sending the Crash Report"
+msgstr "Skickar kraschrapporten"
+
+#: aboutbugreportingdialog.cpp:202
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"The last page will send the bug report to the bug tracking system and will "
+"notify you when it is done. It will then show the web address of the bug "
+"report in the KDE bug tracking system, so that you can look at the report "
+"later."
+msgstr ""
+"Den sista sidan skickar felrapporten till felspårningssystemet, och "
+"underrättar dig när det är klart. Därefter visar den felrapportens "
+"webbadress i KDE:s felspårningssystem, så att du kan titta på rapporten "
+"senare."
+
+#: aboutbugreportingdialog.cpp:207
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If the process fails, you can click <interface>Retry</interface> to try "
+"sending the bug report again. If the report cannot be sent because the bug "
+"tracking system has a problem, you can save it to a file to manually report "
+"later."
+msgstr ""
+"Om processen misslyckas kan du klicka på <interface>Försök igen</interface> "
+"för att försöka skicka felrapporten igen. Om rapporten inte kan skickas på "
+"grund av att felspårningssystemet har ett problem, kan du spara den i en fil "
+"för att rapportera den för hand senare."
+
+#: aboutbugreportingdialog.cpp:214
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid "Thank you for being part of KDE!"
+msgstr "Tack för ditt deltagande i KDE!"
+
+#: aboutbugreportingdialog.cpp:216
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"If you are interested in helping us to keep the KDE bug tracker system clean "
+"and useful, which allows the developers to be more focused on fixing the "
+"real issues,  you are welcome to <link url='https://community.kde.org/"
+"Guidelines_and_HOWTOs/Bug_triaging'>join the BugSquad team</link>."
+msgstr ""
+"Om du är intresserad av att hjälpa oss hålla KDE:s felspårningssystem städat "
+"och användbart, vilket låter utvecklarna vara mer fokuserade på att rätta de "
+"verkliga problemen, är du välkommen att <link url='https://community.kde.org/"
+"Guidelines_and_HOWTOs/Bug_triaging'>gå med i BugSquad-gruppen</link>."
+
+#: applicationdetailsexamples.cpp:23
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"Widgets you have in your desktop and panels (both official and unofficial), "
+"desktop settings (wallpaper plugin, themes) and activities."
+msgstr ""
+"Grafiska komponenter du har på skrivbordet och i paneler (både officiella "
+"och inofficiella), skrivbordsinställningar (insticksprogram för "
+"skrivbordsunderlägg, teman) och aktiviteter."
+
+#: applicationdetailsexamples.cpp:27
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"State of Desktop Effects (Compositing), kind of effects enabled, window "
+"decoration, and specific window rules and configuration."
+msgstr ""
+"Tillstånd för skrivbordseffekter (sammansättning), vilken sorts effekter är "
+"aktiverade, fönsterdekoration, och specifika fönsterregler och inställning."
+
+#: applicationdetailsexamples.cpp:31
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"sites you were visiting, number of opened tabs, plugins you have installed, "
+"and any other non-default setting."
+msgstr ""
+"Platser du besökte, antal öppna flikar, insticksprogram du har installerat, "
+"och alla andra inställningar som skiljer sig från standardvärden."
+
+#: applicationdetailsexamples.cpp:35
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"File view mode, grouping and sorting settings, preview settings, and "
+"directory you were browsing."
+msgstr ""
+"Filvisningsläge, inställningar av gruppering och sortering, inställningar av "
+"granskning, och katalogen du bläddrade i."
+
+#: applicationdetailsexamples.cpp:38
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"Instant Messaging protocols you use, and plugins you have installed "
+"(official and unofficial)."
+msgstr ""
+"Protokoll för direktmeddelande som du använder, och insticksprogram du har "
+"installerat (officiella och inofficiella)."
+
+#: applicationdetailsexamples.cpp:40
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid "Mail protocols and account-types you use."
+msgstr "E-postprotokoll och kontotyper du använder."
+
+#: applicationdetailsexamples.cpp:42
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid "Type of the document you were editing."
+msgstr "Vilken sorts dokument du redigerade."
+
+#: applicationdetailsexamples.cpp:46
+#, kde-format
+msgctxt "@info examples about information the user can provide"
+msgid ""
+"Type of media (extension and format) you were watching and/or listening to."
+msgstr ""
+"Vilken sorts media (filändelse och format) som du tittade och/eller lyssnade "
+"på."
+
+#: backtracewidget.cpp:57
+#, kde-format
+msgctxt "@action:button"
+msgid "&Reload"
+msgstr "Uppdate&ra"
+
+#: backtracewidget.cpp:60
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to reload the crash information (backtrace). This is useful "
+"when you have installed the proper debug symbol packages and you want to "
+"obtain a better backtrace."
+msgstr ""
+"Använd knappen för att ladda in kraschinformationen (bakåtspårningen) igen. "
+"Det är användbart när du har installerat de riktiga paketen med "
+"felsökningssymboler och vill erhålla en bättre bakåtspårning."
+
+#: backtracewidget.cpp:67
+#, kde-format
+msgctxt "@action:button"
+msgid "&Install Debug Symbols"
+msgstr "&Installera felsökningssymboler"
+
+#: backtracewidget.cpp:70
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to install the missing debug symbols packages."
+msgstr ""
+"Använd den här knappen för att installera saknade paket med "
+"felsökningssymboler."
+
+#: backtracewidget.cpp:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Symbol installation is unavailable because the application was updated or "
+"uninstalled after it had been started."
+msgstr ""
+"Symbolinstallation är inte tillgänglig eftersom programmet har uppdaterats "
+"eller avinstallerats efter det hade startats."
+
+#: backtracewidget.cpp:85
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to copy the crash information (backtrace) to the clipboard."
+msgstr ""
+"Använd knappen för att kopiera kraschinformationen (bakåtspårningen) till "
+"klippbordet."
+
+#: backtracewidget.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to save the crash information (backtrace) to a file. This is "
+"useful if you want to take a look at it or to report the bug later."
+msgstr ""
+"Använd knappen för att spara kraschinformationen (bakåtspårningen) i en fil. "
+"Det är användbart om du vill titta på den, eller rapportera felet senare."
+
+#: backtracewidget.cpp:115
+#, kde-format
+msgid ""
+"<h2>What is a \"backtrace\" ?</h2><p>A backtrace basically describes what "
+"was happening inside the application when it crashed, so the developers may "
+"track down where the mess started. They may look meaningless to you, but "
+"they might actually contain a wealth of useful information.<br />Backtraces "
+"are commonly used during interactive and post-mortem debugging.</p>"
+msgstr ""
+"<h2>Vad är en \"bakåtspårning\"?</h2><p>En bakåtspårning beskriver i "
+"egentligen vad som hände inne i programmet när det kraschade, så att "
+"utvecklarna kan spåra var konstigheterna startade. De kan se meningslösa ut "
+"för dig, men de kan faktiskt innehålla en mängd användbar information.<br /"
+">Bakåtspårningar används vanligtvis under interaktiv felsökning och under "
+"felsökning efter programmet har kraschat.</p>"
+
+#: backtracewidget.cpp:135
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:88
+#, kde-format
+msgctxt "@info:status"
+msgid "Loading..."
+msgstr "Läser in..."
+
+#: backtracewidget.cpp:138
+#, kde-format
+msgctxt "@info:status"
+msgid "Generating backtrace... (this may take some time)"
+msgstr "Skapar bakåtspårning... (det kan ta en stund)"
+
+#: backtracewidget.cpp:189
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Another debugger is currently debugging the same application. The crash "
+"information could not be fetched."
+msgstr ""
+"En annan avlusare används för närvarande för att felsöka i samma program. "
+"Kraschinformationen kunde inte hämtas."
+
+#: backtracewidget.cpp:193
+#, kde-format
+msgctxt "@info:status"
+msgid "The crash information could not be fetched."
+msgstr "Kraschinformationen kunde inte hämtas."
+
+#: backtracewidget.cpp:196
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Another debugging process is attached to the crashed application. Therefore, "
+"the DrKonqi debugger cannot fetch the backtrace. Please close the other "
+"debugger and click <interface>Reload</interface>."
+msgstr ""
+"En annan avlusningsprocess är kopplad till programmet som kraschade. Därför "
+"kan inte avlusaren i DrKonqi hämta bakåtspårningen. Stäng den andra "
+"avlusaren och klicka på <interface>Uppdatera</interface>."
+
+#: backtracewidget.cpp:241
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information is useful"
+msgstr "Den skapade kraschinformationen är användbar"
+
+#: backtracewidget.cpp:244
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information may be useful"
+msgstr "Den skapade kraschinformationen kan vara användbar"
+
+#: backtracewidget.cpp:247
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information is probably not useful"
+msgstr "Den skapade kraschinformationen är troligen inte användbar"
+
+#: backtracewidget.cpp:250
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information is not useful"
+msgstr "Den skapade kraschinformationen är inte användbar"
+
+#: backtracewidget.cpp:255
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The rating of this crash information is invalid. This is a bug in DrKonqi "
+"itself."
+msgstr ""
+"Kraschinformationens klassificering är ogiltig. Det är ett fel i DrKonqi "
+"själv."
+
+#: backtracewidget.cpp:267
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"You can click the <interface>Install Debug Symbols</interface> button in "
+"order to automatically install the missing debugging information packages. "
+"If this method does not work: please read <link url='%1'>How to create "
+"useful crash reports</link> to learn how to get a useful backtrace; install "
+"the needed packages (<link url='%2'>list of files</link>) and click the "
+"<interface>Reload</interface> button."
+msgstr ""
+"Du kan klicka på knappen <interface>Installera felsökningssymboler</"
+"interface> för att automatiskt installera de saknade paketen med "
+"felsökningssymboler. Om den metoden inte fungerar: läs gärna <link "
+"url='%1'>Hur man skapar användbara kraschrapporter</link> för att ta reda på "
+"hur man får en användbar bakåtspårning. Installerat nödvändiga paket (<link "
+"url='%2'>fillista</link>) och klicka på knappen <interface>Uppdatera</"
+"interface>."
+
+#: backtracewidget.cpp:285
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Please read <link url='%1'>How to create useful crash reports</link> to "
+"learn how to get a useful backtrace; install the needed packages (<link "
+"url='%2'>list of files</link>) and click the <interface>Reload</interface> "
+"button."
+msgstr ""
+"Läs gärna <link url='%1'>Hur man skapar användbara kraschrapporter</link> "
+"för att ta reda på hur man får en användbar bakåtspårning. Installera "
+"nödvändiga paket (<link url='%2'>fillista</link>) och klicka på knappen "
+"<interface>Uppdatera</interface>."
+
+#: backtracewidget.cpp:301
+#, kde-format
+msgctxt "@info:status"
+msgid "The debugger has quit unexpectedly."
+msgstr "Avlusaren har avslutats oväntat."
+
+#: backtracewidget.cpp:303 backtracewidget.cpp:319
+#, kde-format
+msgctxt "@info:status"
+msgid "The crash information could not be generated."
+msgstr "Kraschinformationen kunde inte skapas."
+
+#: backtracewidget.cpp:307
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"You could try to regenerate the backtrace by clicking the <interface>Reload</"
+"interface> button."
+msgstr ""
+"Du kan försöka att skapa om bakåtspårningen genom att klicka på knappen "
+"<interface>Uppdatera</interface>."
+
+#: backtracewidget.cpp:316
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"<strong>The debugger application is missing or could not be launched.</"
+"strong>"
+msgstr "<strong>Avlusningsprogrammet saknas eller kunde inte startas.</strong>"
+
+#: backtracewidget.cpp:322
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"<strong>You need to first install the debugger application (%1) then click "
+"the <interface>Reload</interface> button.</strong>"
+msgstr ""
+"<strong>Du måste först installera avlusningsprogrammet (%1), och därefter "
+"klicka på knappen <interface>Uppdatera</interface>.</strong>"
+
+#: backtracewidget.cpp:378
+#, kde-format
+msgctxt "@title:window"
+msgid "Error during the installation of debug symbols"
+msgstr "Fel vid installation av felsökningssymboler"
+
+#: backtracewidget.cpp:409
+#, kde-format
+msgid ""
+"The packages containing debug information for the following application and "
+"libraries are missing:"
+msgstr ""
+"Paketen som innehåller felsökningsinformation för följande program och "
+"bibliotek saknas."
+
+#: backtracewidget.cpp:418
+#, kde-format
+msgctxt "messagebox title"
+msgid "Missing debug information packages"
+msgstr "Saknar paket med felsökningsinformation"
+
+#: bugzillaintegration/assistantpage_bugzilla_supported_entities.cpp:41
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Thanks for wanting to help improve our software! Unfortunately <resource>%1</"
+"resource> is no longer supported. We may have alternative supported software "
+"on offer on <link url='https://apps.kde.org/'>KDE.org</link>."
+msgstr ""
+"Tack för att du vill hjälpa till att förbättra vår programvara! Tyvärr stöds "
+"inte <resource>%1</resource> längre. Vi kan eventuellt ha alternativ "
+"programvara som stöds att erbjuda på <link url='https://apps.kde.org/'>KDE."
+"org</link>."
+
+#: bugzillaintegration/assistantpage_bugzilla_supported_entities.cpp:50
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Thanks for wanting to help improve our software! Unfortunately version "
+"<resource>%1</resource> of <resource>%2</resource> is no longer supported. "
+"Please upgrade to a newer version if possible. If your distribution does not "
+"provide a newer version you may be able to find alternative installation "
+"options on <link url='https://apps.kde.org/'>KDE.org</link>."
+msgstr ""
+"Tack för att du vill hjälpa till att förbättra vår programvara! Tyvärr stöds "
+"inte version <resource>%1</resource> av <resource>%2</resource> längre. Var "
+"vänlig uppgradera till en nyare version om möjligt. Om din distribution inte "
+"tillhandahåller en nyare version kan du eventuellt hitta alternativa "
+"installationsmöjligheter på <link url='https://apps.kde.org/'>KDE.org</link>."
+
+#: bugzillaintegration/assistantpage_bugzilla_version.cpp:46
+#, kde-kuit-format
+msgctxt "@info %1 is an error message from the backend"
+msgid "Failed to contact bugs.kde.org: <message>%1</message>"
+msgstr "Misslyckades kontakta bugs.kde.org:  <message>%1</message>."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:34
+#, kde-format
+msgctxt "@action:button"
+msgid "&Show Contents of the Report"
+msgstr "Vi&sa rapportens innehåll"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:37
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:713
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to show the generated report information about this crash."
+msgstr ""
+"Använd knappen för att visa den skapade rapportinformationen om kraschen."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:91
+#, kde-format
+msgctxt "@info"
+msgid ""
+"It appears that this crash is actually the result of an earlier crash in the "
+"compositor and cannot be submitted as it lacks the required information to "
+"resolve the problem."
+msgstr ""
+"Det verkar som om den här kraschen i själva verket är resultatet av en "
+"tidigare krasch i sammansättningsprogrammet och kan inte skickas in eftersom "
+"den saknar nödvändig information för att lösa problemet."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:95
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"KDE developers would appreciate if you could find and attach the crash log "
+"for the compositor. You may be able to retrieve it using the coredumpctl "
+"utility. For more information, see <link url='https://community.kde.org/"
+"Guidelines_and_HOWTOs/Debugging/"
+"How_to_create_useful_crash_reports#Retrieving_a_backtrace_using_coredumpctl'>the "
+"KDE Community Wiki</link>."
+msgstr ""
+"KDE-utvecklarna skulle uppskatta om du kan hitta och bifoga "
+"sammansättningsprogrammets kraschlogg. Det är möjligt att du kan hämta den "
+"genom att använda verktyget coredumpctl. För mer information, se <link "
+"url='https://community.kde.org/Guidelines_and_HOWTOs/Debugging/"
+"How_to_create_useful_crash_reports#Retrieving_a_backtrace_using_coredumpctl'>KDE-"
+"gemenskapens Wiki</link>."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:119
+#, kde-format
+msgctxt "@info"
+msgid "The automatically generated crash information is useful."
+msgstr "Den automatiskt genererade kraschinformationen är användbar."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:126
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information lacks some details but may be "
+"still be useful."
+msgstr ""
+"Den automatiskt genererade kraschinformationen saknar vissa detaljer, men "
+"kan ändå vara användbar."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:135
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information lacks important details and it "
+"is probably not helpful."
+msgstr ""
+"Den automatiskt genererade kraschinformationen saknar viktiga detaljer, och "
+"är troligen inte till någon hjälp."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:147
+#, kde-format
+msgctxt "@info"
+msgid "The crash information was not generated because it was not needed."
+msgstr "Kraschinformationen skapades inte, eftersom den inte behövdes."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:152
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information does not contain enough "
+"information to be helpful."
+msgstr ""
+"Den automatiskt genererade kraschinformationen innehåller inte nog med "
+"information för att vara till någon hjälp."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:156
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<note>You can improve it by installing debugging packages and reloading the "
+"crash on the Crash Information page. You can get help with the Bug Reporting "
+"Guide by clicking on the <interface>Help</interface> button.</note>"
+msgstr ""
+"<note>Du kan försöka förbättra den genom att installera felsökningspaket och "
+"läsa in kraschen igen på sidan med kraschinformation. Du kan få hjälp med "
+"felrapporteringsguiden genom att klicka på knappen <interface>Hjälp</"
+"interface>.</note>"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:172
+#, kde-format
+msgctxt "@info"
+msgid "The information you can provide could be considered helpful."
+msgstr "Informationen du kan tillhandahålla kan anses vara till hjälp."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:177
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The information you can provide is not considered helpful enough in this "
+"case."
+msgstr ""
+"Informationen du kan tillhandahålla anses inte ge tillräckligt mycket hjälp "
+"i det här fallet."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:184
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Your problem has already been reported as bug %1."
+msgstr "Problemet har redan rapporterats som fel %1."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:199
+#, kde-format
+msgctxt "@info"
+msgid "This report is considered helpful."
+msgstr "Rapporten anses vara till hjälp."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:205
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This application's bugs are reported to the KDE bug tracking system: click "
+"<interface>Next</interface> to start the reporting process. You can manually "
+"report at <link>%1</link>"
+msgstr ""
+"Programmets fel rapporteras till KDE:s felspårningssystem: klicka på "
+"<interface>Nästa</interface> för att starta rapporteringsprocessen.Du kan "
+"rapportera manuellt på <link>%1</link>."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:217
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This application is not supported in the KDE bug tracking system. Click "
+"<interface>Finish</interface> to report this bug to the application "
+"maintainer. Also, you can manually report at <link>%1</link>."
+msgstr ""
+"Programmet stöds inte av KDE:s felspårningssystem. Klicka på "
+"<interface>Slutför</interface> för att rapportera felet till programmets "
+"utvecklare. Du kan också rapportera manuellt på <link>%1</link>."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:234
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This report does not contain enough information for the developers, so the "
+"automated bug reporting process is not enabled for this crash."
+msgstr ""
+"Rapporten innehåller inte tillräckligt med information för utvecklarna, och "
+"därför är inte den automatiska felrapporteringsprocessen aktiverad för den "
+"här kraschen."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:238
+#, kde-format
+msgctxt "@info"
+msgid "If you wish, you can go back and change your answers. "
+msgstr "Om du så önskar, kan du gå tillbaka och ändra dina svar. "
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:248
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You can manually report this bug at <link>%1</link>. Click "
+"<interface>Finish</interface> to close the assistant."
+msgstr ""
+"Du kan rapportera felet manuellt på <link>%1</link>. Klicka på "
+"<interface>Slutför</interface> för att stänga guiden."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:255
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You can manually report this bug to its maintainer at <link>%1</link>. Click "
+"<interface>Finish</interface> to close the assistant."
+msgstr ""
+"Du kan rapportera felet manuellt till dess utvecklare på <link>%1</link>. "
+"Klicka på <interface>Slutför</interface> för att stänga guiden."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:275
+#, kde-format
+msgctxt "@info report to url/mail address"
+msgid "Report to %1"
+msgstr "Rapportera till %1"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:33
+#, kde-format
+msgctxt "@title:window"
+msgid "Related Bug Report"
+msgstr "Relaterad felrapport"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel (Go back to the report)"
+msgstr "Avbryt (gå tillbaka till rapporten)"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:40
+#, kde-format
+msgctxt "@action:button continue with the selected option and close the dialog"
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:47
+#, kde-format
+msgid "You are going to mark your crash as related to bug %1"
+msgstr "Du kommer att markera din krasch som relaterad till fel %1"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:59
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The report is closed because %1. <i>If the crash is the same, adding further "
+"information will be useless and will consume developers' time.</i>"
+msgstr ""
+"Rapporten är stängd på grund av %1. <i>Om kraschen är likadan, är det "
+"onödigt att lägga till ytterligare information och det kommer att slösa bort "
+"utvecklarnas tid.</i>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Bug Description"
+msgstr "Felbeskrivning"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:35
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:703
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry..."
+msgstr "Försök igen..."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:38
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to retry loading the bug report."
+msgstr "Använd knappen för att försöka ladda om felrapporten."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:45
+#, kde-format
+msgctxt "@action:button"
+msgid "Suggest this crash is related"
+msgstr "Föreslå att kraschen är relaterad"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to suggest that the crash you experienced is related to this "
+"bug report"
+msgstr ""
+"Använd knappen för att föreslå att kraschen du upplevde är relaterad till "
+"den här felrapporten"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:91
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<link url='%1'>Report's webpage</link>"
+msgstr "<link url='%1'>Rapportens webbsida</link>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:94
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Loading information about bug %1 from %2...."
+msgstr "Läser in information om fel %1 från %2..."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:99
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Backtrace of the crash I experienced:\n"
+"\n"
+msgstr ""
+"Bakåtspårning för kraschen jag upplevde:\n"
+"\n"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:121
+#, kde-format
+msgctxt "@info bug status"
+msgid "Opened (Unconfirmed)"
+msgstr "Öppen (inte bekräftad)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:125
+#, kde-format
+msgctxt "@info bug status"
+msgid "Opened (Unfixed)"
+msgstr "Öppen (inte rättad)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:134
+#, kde-format
+msgctxt "@info bug resolution, fixed in version"
+msgid "Fixed in version \"%1\""
+msgstr "Rättat i version \"%1\""
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:135
+#, kde-format
+msgctxt "@info bug resolution, fixed by kde devs in version"
+msgid "the bug was fixed by KDE developers in version \"%1\""
+msgstr "felet har rättats av KDE:s utvecklare i version \"%1\""
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:137
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Fixed"
+msgstr "Rättad"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:137
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "the bug was fixed by KDE developers"
+msgstr "felet har rättats av KDE:s utvecklare"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:141
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Non-reproducible"
+msgstr "Inte möjlig att reproducera"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:143
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Duplicate report (Already reported before)"
+msgstr "Duplicerad rapport (redan tidigare rapporterad)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:145
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Not a valid report/crash"
+msgstr "Inte en giltig rapport eller krasch"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:149
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Not caused by a problem in the KDE's Applications or libraries"
+msgstr "Inte orsakat av ett problem i KDE:s program eller bibliotek"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:150
+#, kde-format
+msgctxt "@info bug resolution"
+msgid ""
+"the bug is caused by a problem in an external application or library, or by "
+"a distribution or packaging issue"
+msgstr ""
+"felet orsakas av ett problem i ett externt program eller bibliotek, eller av "
+"ett distributions- eller paketeringsproblem"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:166
+#, kde-format
+msgctxt "@info bug status"
+msgid "Temporarily closed, because of a lack of information"
+msgstr "Tillfälligt stängd, på grund av brist på information"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:182
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Invalid report information (malformed data). This could mean that the bug "
+"report does not exist, or the bug tracking site is experiencing a problem."
+msgstr ""
+"Ogiltig rapportinformation (felaktig data). Det kan betyda att felrapporten "
+"inte finns, eller att felspårningsplatsen upplever ett problem."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:199
+#, kde-format
+msgctxt "@action:button let the user to choose to read the main report"
+msgid "Yes, read the main report"
+msgstr "Ja läs huvudrapporten"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:205
+#, kde-format
+msgctxt "@action:button let the user choose to read the original report"
+msgid "No, let me read the report I selected"
+msgstr "Nej, låt mig läsa rapporten jag valde"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:209
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The report you selected (bug %1) is already marked as duplicate of bug %2. "
+"Do you want to read that report instead? (recommended)"
+msgstr ""
+"Rapporten du skickade (fel %1) är redan markerad som dubblett av fel %2. "
+"Vill du läsa den rapporten istället (rekommenderas)?"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:214
+#, kde-format
+msgctxt "@title:window"
+msgid "Nested duplicate detected"
+msgstr "Dubblett i flera led detekterad"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:255
+#, kde-format
+msgctxt "comment $number to use as subtitle"
+msgid "<h4>Comment %1:</h4>"
+msgstr "<h4>Kommentar %1:</h4>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:274
+#, kde-kuit-format
+msgid ""
+"<p><note>The bug report's title is often written by its reporter and may not "
+"reflect the bug's nature, root cause or other visible symptoms you could use "
+"to compare to your crash. Please read the complete report and all the "
+"comments below.</note></p>"
+msgstr ""
+"<p><note>Felrapportens titel skrivs oftast av den som rapporterar och kanske "
+"inte motsvarar felets natur, ursprunglig orsak eller andra synliga symptom "
+"du skulle kunna använda för att jämföra med din krasch. Läs den fullständiga "
+"rapporten och alla kommentarer nedan.</note></p>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:281
+#, kde-kuit-format
+msgid ""
+"<p><note>This bug report has %1 duplicate report. That means this is "
+"probably a <strong>common crash</strong>. <i>Please consider only adding a "
+"comment or a note if you can provide new valuable information which was not "
+"already mentioned.</i></note></p>"
+msgid_plural ""
+"<p><note>This bug report has %1 duplicate reports. That means this is "
+"probably a <strong>common crash</strong>. <i>Please consider only adding a "
+"comment or a note if you can provide new valuable information which was not "
+"already mentioned.</i></note></p>"
+msgstr[0] ""
+"<p><note>Felrapporten har %1 duplicerade rapport. Det betyder att den "
+"troligen är en <strong>ofta förekommande krasch</strong>.<i>Överväg att bara "
+"lägga till en kommentar eller en not om du kan tillhandahålla ny värdefull "
+"information som inte redan har nämnts.</i></note></p>"
+msgstr[1] ""
+"<p><note>Felrapporten har %1 duplicerade rapporter. Det betyder att den "
+"troligen är en <strong>ofta förekommande krasch</strong>.<i>Överväg att bara "
+"lägga till en kommentar eller en not om du kan tillhandahålla ny värdefull "
+"information som inte redan har nämnts.</i></note></p>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:293
+#, kde-format
+msgctxt "@info bug report title (quoted)"
+msgid "<h3>\"%1\"</h3>"
+msgstr "<h3>\"%1\"</h3>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:294
+#, kde-format
+msgctxt "@info bug report status"
+msgid "<h4>Bug Report Status: %1</h4>"
+msgstr "<h4>Felrapportens status: %1</h4>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:295
+#, kde-format
+msgctxt "@info bug report product and component"
+msgid "<h4>Affected Component: %1 (%2)</h4>"
+msgstr "<h4>Påverkad komponent: %1 (%2)</h4>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:296
+#, kde-format
+msgctxt "@info bug report description"
+msgid "<h3>Description of the bug</h3><p>%1</p>"
+msgstr "<h3>Beskrivning av felet</h3><p>%1</p>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:299
+#, kde-format
+msgctxt "@label:textbox bug report comments (already formatted)"
+msgid "<h2>Additional Comments</h2>%1"
+msgstr "<h2>Ytterligare kommentarer</h2>%1"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:308
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Showing bug %1"
+msgstr "Visar fel %1"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:340
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Error fetching the bug report<nl/><message>%1.</message><nl/>Please wait "
+"some time and try again."
+msgstr ""
+"Fel när felrapporten skulle hämtas<nl/><message>%1.</message><nl/>Vänta en "
+"stund och försök igen."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:345
+#, kde-format
+msgctxt "@info"
+msgid "Error fetching the bug report"
+msgstr "Fel när felrapporten skulle hämtas"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:346
+#, kde-format
+msgctxt "@info:status"
+msgid "Error fetching the bug report"
+msgstr "Fel när felrapporten skulle hämtas"
+
+#: bugzillaintegration/reportassistantdialog.cpp:35
+#, kde-format
+msgid "the KDE Bug Tracking System"
+msgstr "KDE:s felspårningssystem"
+
+#: bugzillaintegration/reportassistantdialog.cpp:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Crash Reporting Assistant"
+msgstr "Kraschrapporteringsguide"
+
+#: bugzillaintegration/reportassistantdialog.cpp:62
+#, kde-format
+msgctxt "@title"
+msgid "Welcome to the Reporting Assistant"
+msgstr "Välkommen till rapporteringsguiden"
+
+#: bugzillaintegration/reportassistantdialog.cpp:86
+#, kde-format
+msgctxt "@title"
+msgid "Fetching the Backtrace (Automatic Crash Information)"
+msgstr "Hämtar bakåtspårningen (automatisk kraschinformation)"
+
+#: bugzillaintegration/reportassistantdialog.cpp:93
+#, kde-format
+msgctxt "@title"
+msgid "Results of the Analyzed Crash Details"
+msgstr "Resultat från analysen av kraschinformationen"
+
+#: bugzillaintegration/reportassistantdialog.cpp:116
+#, kde-format
+msgctxt "@title"
+msgid "Login into %1"
+msgstr "Logga in på %1"
+
+#: bugzillaintegration/reportassistantdialog.cpp:125
+#, kde-format
+msgctxt "@title"
+msgid "Look for Possible Duplicate Reports"
+msgstr "Leta efter möjliga dubbletter"
+
+#: bugzillaintegration/reportassistantdialog.cpp:133
+#, kde-format
+msgctxt "@title"
+msgid "Enter the Details about the Crash"
+msgstr "Skriv in detaljinformation om kraschen"
+
+#: bugzillaintegration/reportassistantdialog.cpp:140
+#, kde-format
+msgctxt "@title"
+msgid "Preview the Report"
+msgstr "Förhandsgranska rapporten"
+
+#: bugzillaintegration/reportassistantdialog.cpp:184
+#, kde-format
+msgctxt "@action button to submit report"
+msgid "Submit"
+msgstr "Skicka in"
+
+#: bugzillaintegration/reportassistantdialog.cpp:318
+#, kde-format
+msgctxt "@action:button"
+msgid "Close the assistant"
+msgstr "Stäng guiden"
+
+#: bugzillaintegration/reportassistantdialog.cpp:321
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: bugzillaintegration/reportassistantdialog.cpp:327
+#, kde-format
+msgctxt "@action:button"
+msgid "Save information and close"
+msgstr "Spara information och stäng"
+
+#: bugzillaintegration/reportassistantdialog.cpp:331
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to close the bug reporting assistant? <note>The crash "
+"information is still valid, so you can save the report before closing if you "
+"want.</note>"
+msgstr ""
+"Vill du verkligen stänga felrapportguiden? <note>Kraschinformationen är "
+"fortfarande giltig, alltså kan du spara rapporten innan du stänger guiden om "
+"du vill.</note>"
+
+#: bugzillaintegration/reportassistantdialog.cpp:334
+#: bugzillaintegration/reportassistantdialog.cpp:354
+#, kde-format
+msgctxt "@title:window"
+msgid "Close the Assistant"
+msgstr "Stäng guiden"
+
+#: bugzillaintegration/reportassistantdialog.cpp:352
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to close the bug reporting assistant?"
+msgstr "Vill du verkligen stänga felrapporteringsguiden?"
+
+#: bugzillaintegration/reportassistantpages_base.cpp:103
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This crash information is not useful enough, do you want to try to improve "
+"it? You will need to install some debugging packages."
+msgstr ""
+"Kraschinformationen är inte användbar nog. Vill du försöka förbättra den? Du "
+"måste installera några felsökningspaket."
+
+#: bugzillaintegration/reportassistantpages_base.cpp:106
+#, kde-format
+msgctxt "@title:window"
+msgid "Crash Information is not useful enough"
+msgstr "Kraschinformationen är inte användbar nog"
+
+#: bugzillaintegration/reportassistantpages_base.cpp:130
+#, kde-format
+msgctxt ""
+"@option:check kind of information the user can provide about the crash, %1 "
+"is the application name"
+msgid "What I was doing when the application \"%1\" crashed"
+msgstr "Vad jag gjorde när programmet \"%1\" kraschade"
+
+#: bugzillaintegration/reportassistantpages_base.cpp:139
+#, kde-format
+msgctxt "@label examples about information the user can provide"
+msgid "Examples: %1"
+msgstr "Exempel: %1"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:71
+#, kde-format
+msgctxt "@info:status '1' is replaced with the short URL of the bugzilla "
+msgid "You need to login with your %1 account in order to proceed."
+msgstr "Du måste logga in på kontot %1 för att fortsätta."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:75
+#, kde-format
+msgctxt "@action:button"
+msgid "Login"
+msgstr "Logga in"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:78
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to login to the KDE bug tracking system using the provided e-"
+"mail address and password."
+msgstr ""
+"Använd knappen för att logga in på KDE:s felspårningssystem med den "
+"tillhandahållna e-postadressen och lösenordet."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:96
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"<note>You need a user account on the <link url='%1'>KDE bug tracking system</"
+"link> in order to file a bug report, because we may need to contact you "
+"later for requesting further information. If you do not have one, you can "
+"freely <link url='%2'>create one here</link>. Please do not use disposable "
+"email accounts.</note>"
+msgstr ""
+"<note>Du behöver ett användarkonto på <link url='%1'>KDE:s "
+"felspårningssystem</link> för att kunna skicka in en felrapport, eftersom vi "
+"kan behöva kontakta dig senare för att begära ytterligare information. Om du "
+"inte har ett, kan du fritt <link url='%2'>skapa ett här</link>. Använd inte "
+"tillfälliga e-postkonton.</note>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:127
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Error when trying to login: <message>%1</message>"
+msgstr "Fel vid försök att logga in: <message>%1</message>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:155
+#, kde-format
+msgctxt "@info:status the user is logged at the bugtracker site as USERNAME"
+msgid "Logged in at the KDE bug tracking system (%1) as: %2."
+msgstr "Inloggad på KDE:s felspårningssystem (%1) som: %2"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:290
+#, kde-format
+msgctxt "@info:status '1' is a url, '2' the e-mail address"
+msgid "Performing login at %1 as %2..."
+msgstr "Utför inloggning på %1 som %2..."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:323
+#, kde-format
+msgctxt "@info:status"
+msgid "<b>Error: Invalid e-mail address or password</b>"
+msgstr "<b>Fel: Ogiltig e-postadress eller lösenord</b>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:364
+#, kde-format
+msgctxt "@action/button retry button in error widget"
+msgid "Retry"
+msgstr "Försök igen"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:467
+#, kde-format
+msgctxt "the minimum required length of a text was reached"
+msgid "Minimum length reached"
+msgstr "Minimal längd uppnådd"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:469
+#, kde-format
+msgctxt "the minimum required length of a text wasn't reached yet"
+msgid "Provide more information"
+msgstr "Tillhandahåll mer information"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:494
+#, kde-format
+msgctxt "@info/status error"
+msgid "Failed to get platform list"
+msgstr "Misslyckades hämta plattformlista"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:545
+#, kde-format
+msgctxt "@info error when talking to the bugzilla API"
+msgid "An error occurred when talking to bugs.kde.org: %1"
+msgstr "Ett fel uppstod vid kommunikation med bugs.kde.org: %1"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:562
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The description about the crash details does not provide enough information "
+"yet.<br /><br />"
+msgstr ""
+"Beskrivningen av kraschens detaljer tillhandahåller inte tillräckligt med "
+"information.<br /><br />"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:567
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The amount of required information is proportional to the quality of the "
+"other information like the backtrace or the reproducibility rate.<br /><br />"
+msgstr ""
+"Mängden nödvändig information är proportionell mot kvaliteten hos övrig "
+"information som bakåtspårningen eller upprepningsbarheten.<br /><br />"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:576
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Previously, you told DrKonqi that you could provide some contextual "
+"information. Try writing more details about your situation. (even little "
+"ones could help us.)<br /><br />"
+msgstr ""
+"Tidigare har du talat om för DrKonqi att du kan tillhandahålla viss "
+"sammanhangsinformation. Försök att skriva in mer detaljer om din situation "
+"(även småsaker kan vara till hjälp).<br /><br />"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:583
+#, kde-format
+msgctxt "@info"
+msgid ""
+"If you cannot provide more information, your report will probably waste "
+"developers' time. Can you tell us more?"
+msgstr ""
+"Om du inte kan tillhandahålla mer information, kommer din rapport troligen "
+"slösa med utvecklarnas tid. Kan du tala om mer för oss?"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:587
+#, kde-format
+msgid "Yes, let me add more information"
+msgstr "Ja, låt mig lägga till mer information"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:590
+#, kde-format
+msgid "No, I cannot add any other information"
+msgstr "Nej, jag kan inte lägga till någon ytterligare information"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:592
+#, kde-format
+msgctxt "@title:window"
+msgid "We need more information"
+msgstr "Vi behöver mer information"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:630
+#, kde-kuit-format
+msgctxt "@info:tooltip examples of good bug report titles"
+msgid ""
+"<strong>Examples of good titles:</strong><nl />\"Plasma crashed after adding "
+"the Notes widget and writing on it\"<nl />\"Konqueror crashed when accessing "
+"the Facebook application 'X'\"<nl />\"Kopete suddenly closed after resuming "
+"the computer and talking to a MSN buddy\"<nl />\"Kate closed while editing a "
+"log file and pressing the Delete key a couple of times\""
+msgstr ""
+"<strong>Exempel på bra rubriker:</strong><nl />\"Plasma kraschade efter att "
+"ha lagt till den grafiska komponenten Anteckningar och skrivit i den\"<nl />"
+"\"Konqueror kraschade när programmet 'X' på Facebook användes\"<nl />"
+"\"Kopete stängdes plötsligt efter att ha lämnat viloläge och börjat prata "
+"med en kompis på MSN\"<nl />\"Kate stängdes vid redigering av en loggfil när "
+"tangenten Delete trycktes ett antal gånger\""
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:641
+#, kde-format
+msgctxt "@info:tooltip help and examples of good bug descriptions"
+msgid "Describe in as much detail as possible the crash circumstances:"
+msgstr "Beskriv kraschens omständigheter med så mycket detaljer som möjligt:"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:645
+#, kde-format
+msgctxt "@info:tooltip help and examples of good bug descriptions"
+msgid ""
+"- Detail which actions were you taking inside and outside the application an "
+"instant before the crash."
+msgstr ""
+"- Beskriv i detalj vilka åtgärder du utförde inne i och utanför programmet "
+"precis innan kraschen."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:651
+#, kde-format
+msgctxt "@info:tooltip help and examples of good bug descriptions"
+msgid ""
+"- Note if you noticed any unusual behavior in the application or in the "
+"whole environment."
+msgstr ""
+"- Notera om du märkte något ovanligt beteende hos programmet eller hela "
+"miljön."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:656
+#, kde-format
+msgctxt "@info:tooltip help and examples of good bug descriptions"
+msgid "- Note any non-default configuration in the application."
+msgstr ""
+"- Notera eventuella inställningar i programmet som inte är "
+"standardinställningar."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:661
+#, kde-format
+msgctxt ""
+"@info:tooltip examples of configuration details. the examples are already "
+"translated"
+msgid "Examples: %1"
+msgstr "Exempel: %1"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:706
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to retry sending the crash report if it failed before."
+msgstr ""
+"Använd knappen för att försöka skicka kraschrapporten igen om det "
+"misslyckades tidigare."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:710
+#, kde-format
+msgctxt "@action:button"
+msgid "Sho&w Contents of the Report"
+msgstr "&Visa rapportens innehåll"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:734
+#, kde-format
+msgctxt "@info:status"
+msgid "Sending crash report... (please wait)"
+msgstr "Skickar kraschrapport... (vänta)"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:767
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Crash report sent.<nl/>URL: <link>%1</link><nl/>Thank you for being part of "
+"KDE. You can now close this window."
+msgstr ""
+"Kraschrapport skickad.<nl/>Webbadress: <link>%1</link><nl/>Tack för ditt "
+"deltagande i KDE. Du kan nu stänga fönstret."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:779
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Error sending the crash report:  <message>%1.</message>"
+msgstr "Fel när kraschrapporten skulle skickas:  <message>%1</message>."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:801
+#, kde-format
+msgctxt "@info report to KDE bugtracker address"
+msgid "Report to %1"
+msgstr "Rapportera till %1"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:42
+#, kde-format
+msgctxt "@action:button"
+msgid "Search for more reports"
+msgstr "Sök efter fler rapporter"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to search for more similar bug reports"
+msgstr "Använd knappen för att söka efter fler liknande felrapporter"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry search"
+msgstr "Upprepa sökning"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:53
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to retry the search that previously failed."
+msgstr "Använd knappen för att upprepa sökningen som tidigare misslyckades."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Open selected report"
+msgstr "Öppna markerad rapport"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:61
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to view the information of the selected bug report."
+msgstr "Använd knappen för att visa information om den markerade felrapporten."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop searching"
+msgstr "Stoppa sökning"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:69
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to stop the current search."
+msgstr "Använd den här knappen för att stoppa pågående sökning."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:81
+#, kde-format
+msgctxt "@action:button remove the selected item from a list"
+msgid "Remove"
+msgstr "Ta bort"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to remove a selected possible duplicate"
+msgstr "Använd knappen för att en markerad möjlig dubblett"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:140
+#, kde-format
+msgid "There are no real duplicates"
+msgstr "Det finns inga verkliga dubbletter"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:142
+#, kde-format
+msgid ""
+"Press this button to declare that, in your opinion and according to your "
+"experience, the reports found as similar do not match the crash you have "
+"experienced, and you believe it is unlikely that a better match would be "
+"found after further review."
+msgstr ""
+"Tryck på knappen för att ange att, enligt vad du anser och enligt din "
+"erfarenhet, rapporterna som anses vara liknande inte motsvarar kraschen du "
+"har råkat ut för, och du tror att det är mindre troligt att en bättre "
+"motsvarighet går att hitta efter ytterligare granskning."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:150
+#, kde-format
+msgid "Let me check more reports"
+msgstr "Låt mig kontrollera fler rapporter"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:152
+#, kde-format
+msgid ""
+"Press this button if you would rather review more reports in order to find a "
+"match for the crash you have experienced."
+msgstr ""
+"Tryck på knappen om du hellre skulle vilja granska fler rapporter för att "
+"hitta en motsvarighet till kraschen du har råkat ut för."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:159
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You have not selected any possible duplicates, or a report to which to "
+"attach your crash information. Have you read all the reports, and can you "
+"confirm that there are no real duplicates?"
+msgstr ""
+"Du har inte valt några möjliga dubbletter, eller en rapport där din "
+"kraschinformation ska biläggas. Har du läst alla rapporterna, och kan du "
+"bekräfta att det inte finns några verkliga dubbletter?"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:162
+#, kde-format
+msgctxt "@title:window"
+msgid "No selected possible duplicates"
+msgstr "Inga möjliga dubbletter markerade"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:188
+#, kde-format
+msgctxt "@info:status"
+msgid "Searching for duplicates..."
+msgstr "Söker efter dubbletter ..."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:207
+#, kde-format
+msgctxt "@info:status"
+msgid "Search stopped."
+msgstr "Sökning stoppad."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:209
+#, kde-format
+msgctxt "@info:status"
+msgid "Search stopped. Showing results."
+msgstr "Sökning stoppad. Visar resultat."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:251
+#, kde-format
+msgctxt "@info bug status"
+msgid "[Open]"
+msgstr "[Öppen]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:258
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[Fixed]"
+msgstr "[Rättad]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:260
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[Non-reproducible]"
+msgstr "[Inte möjlig att reproducera]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:262
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[Duplicate report]"
+msgstr "[Duplicerad rapport]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:264
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[Invalid]"
+msgstr "[Ogiltig]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:267
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "[External problem]"
+msgstr "[Externt problem]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:282
+#, kde-format
+msgctxt "@info bug status"
+msgid "[Incomplete]"
+msgstr "[Ofullständig]"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:301
+#, kde-format
+msgctxt "@info:status"
+msgid "Showing results."
+msgstr "Visar resultat."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:342
+#, kde-format
+msgctxt "@info:status"
+msgid "Search Finished. No reports found."
+msgstr "Sökning klar. Inga rapporter hittades."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:405
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Your crash is a <strong>duplicate</strong> and has already been reported as "
+"<a href=\"%1\">Bug %1</a>."
+msgstr ""
+"Kraschen är en <strong>dubblett</strong> och har redan rapporterats som <a "
+"href=\"%1\">Fel %1</a>."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:408
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Your crash has already been reported as <a href=\"%1\">Bug %1</a>, which is "
+"a <strong>duplicate</strong> of <a href=\"%2\">Bug %2</a>"
+msgstr ""
+"Kraschen har redan rapporterats som <a href=\"%1\">Fel %1</a>, vilket är en "
+"<strong>dubblett</strong> av <a href=\"%2\">Fel %2</a>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:414
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Only <strong><a href=\"%1\">attach</a></strong> if you can add needed "
+"information to the bug report."
+msgstr ""
+"<strong><a href=\"%1\">Bilägg bara</a></strong> om du kan lägga till "
+"behövlig information i felrapporten."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:419
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Your crash has already been reported as <a href=\"%1\">Bug %1</a> which has "
+"been <strong>closed</strong>."
+msgstr ""
+"Kraschen har redan rapporterats som <a href=\"%1\">Fel %1</a>, vilket har "
+"<strong>stängts</strong>."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:422
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Your crash has already been reported as <a href=\"%1\">Bug %1</a>, which is "
+"a duplicate of the <strong>closed</strong> <a href=\"%2\">Bug %2</a>."
+msgstr ""
+"Kraschen har redan rapporterats som <a href=\"%1\">Fel %1</a>, vilket är en "
+"dubblett av det <strong>stängda</strong> <a href=\"\">Fel %2</a>."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:448
+#, kde-format
+msgctxt "@info:status"
+msgid "Error fetching the bug report list"
+msgstr "Fel när listan med felrapporter skulle hämtas"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:452
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Error fetching the bug report list<nl/><message>%1.</message><nl/>Please "
+"wait some time and try again."
+msgstr ""
+"Fel när listan med felrapporter skulle hämtas<nl/><message>%1.</message><nl/"
+">Vänta en stund och försök igen."
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:532
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"The report is going to be <strong>attached</strong> to bug %1. <a href=\"#"
+"\">Cancel</a>"
+msgstr ""
+"Rapporten kommer att <strong>biläggas</strong> till felet %1. <a href=\"#"
+"\">Avbryt</a>"
+
+#: bugzillaintegration/reportinformationdialog.cpp:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Contents of the Report"
+msgstr "Rapportens innehåll"
+
+#: bugzillaintegration/reportinformationdialog.cpp:29
+#, kde-format
+msgctxt "@action:button"
+msgid "&Save to File..."
+msgstr "&Spara i fil..."
+
+#: bugzillaintegration/reportinformationdialog.cpp:32
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to save the generated crash report information to a file. "
+"You can use this option to report the bug later."
+msgstr ""
+"Använd knappen för att spara den skapade rapportinformationen om kraschen i "
+"en fil. Du kan använda alternativet för att rapportera felet senare."
+
+#: bugzillaintegration/reportinterface.cpp:170
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid ""
+"<placeholder>In detail, tell us what you were doing  when the application "
+"crashed.</placeholder>"
+msgstr ""
+"<placeholder>Tala om för oss i detalj vad du höll på med när programmet "
+"kraschade.</placeholder>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_rememberLabel)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:17
+#, kde-format
+msgctxt "@label question"
+msgid ""
+"<strong>Do you remember what you were doing prior to the crash?</strong>"
+msgstr "<strong>Kommer du ihåg vad du gjorde innan kraschen?</strong>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationYes)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:44
+#, kde-format
+msgctxt ""
+"@option:radio \"yes\" to the question \"do you remember what were you doing "
+"prior to the crash?\""
+msgid "Yes"
+msgstr "Ja"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationNo)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:54
+#, kde-format
+msgctxt ""
+"@option:radio \"No\" to the question \"do you remember what were you doing "
+"prior to the crash?\""
+msgid "No"
+msgstr "Nej"
+
+#. i18n: ectx: property (text), widget (QLabel, m_reproducibleLabel)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:90
+#, kde-format
+msgctxt "@label question"
+msgid ""
+"<strong>Does the application crash again if you repeat the same situation?</"
+"strong>"
+msgstr ""
+"<strong>Kraschar programmet igen om du upprepar samma situation?</strong>"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:118
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"If you tried to repeat the situation, select how often the application "
+"crashes"
+msgstr "Om du försökte upprepa situationen, välj hur ofta programmet kraschar"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:121
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If you tried to repeat the situation, select how often the application "
+"crashes"
+msgstr "Om du försökte upprepa situationen, välj hur ofta programmet kraschar"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:125
+#, kde-format
+msgctxt "@item:inlistbox  user didn't tried to repeat the crash situation"
+msgid "I did not try again"
+msgstr "Jag försökte inte igen"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:130
+#, kde-format
+msgctxt "@item:inlistbox the crash cannot be reproduce. reproduciblity->never"
+msgid "Never"
+msgstr "Aldrig"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:135
+#, kde-format
+msgctxt "@item:inlistbox the bug can be reproduced sometimes"
+msgid "Sometimes"
+msgstr "Ibland"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:140
+#, kde-format
+msgctxt "@item:inlistbox the bug can be reproduced every time"
+msgid "Every time"
+msgstr "Varje gång"
+
+#. i18n: ectx: property (text), widget (QLabel, m_informationLabel)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:182
+#, kde-format
+msgctxt "@label question"
+msgid ""
+"<strong>Please select which additional information you can provide:</strong>"
+msgstr ""
+"<strong>Välj vilken ytterligare information du kan tillhandahålla:</strong>"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_actionsInsideApp)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:212
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Check this option if you can describe what were you doing inside the "
+"application before it crashed"
+msgstr ""
+"Markera alternativet om du kan beskriva vad det var du gjorde inne i "
+"programmet innan det kraschade"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_actionsInsideApp)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:215
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you can describe what were you doing inside the "
+"application before it crashed"
+msgstr ""
+"Markera alternativet om du kan beskriva vad det var du gjorde inne i "
+"programmet innan det kraschade"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_unusualSituation)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:225
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Check this option if you can describe any unusual behavior or appearance in "
+"the application or the whole desktop"
+msgstr ""
+"Markera alternativet om du kan beskriva något ovanligt beteende eller "
+"utseende hos programmet eller hela skrivbordet"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_unusualSituation)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:228
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you can describe any unusual behavior or appearance in "
+"the application or the whole desktop"
+msgstr ""
+"Markera alternativet om du kan beskriva något ovanligt beteende eller "
+"utseende hos programmet eller hela skrivbordet"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_unusualSituation)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:231
+#, kde-format
+msgctxt ""
+"@option:check kind of information the user can provide about the crash"
+msgid "Unusual desktop behavior I noticed"
+msgstr "Ovanligt beteende hos skrivbordet jag märkte"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_appSpecificDetails)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:248
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Check this option if you can provide application specific details or "
+"settings that may be related to the crash."
+msgstr ""
+"Markera alternativet om du kan tillhandahålla programspecifik information "
+"eller inställningar som kan vara relaterade till kraschen."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_appSpecificDetails)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:251
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you can provide application specific details or "
+"settings that may be related to the crash."
+msgstr ""
+"Markera alternativet om du kan tillhandahålla programspecifik information "
+"eller inställningar som kan vara relaterade till kraschen."
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_appSpecificDetails)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:254
+#, kde-format
+msgctxt ""
+"@option:check kind of information the user can provide about the crash"
+msgid "Custom settings of the application that may be related"
+msgstr "Egna inställningar av programmet som kan vara relevant"
+
+#. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:17
+#, kde-format
+msgctxt "@info"
+msgid ""
+"See if your bug has already been reported. Double click a report in the list "
+"and compare it to yours. You can suggest that your crash is a duplicate of "
+"that report or directly attach your information to it."
+msgstr ""
+"Kontrollera om felet redan har rapporterats. Dubbelklicka på en rapport i "
+"listan och jämför den med din. Du kan föreslå att din krasch är en dubblett "
+"av den rapporten, och lägga till din information direkt i den."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:72
+#, kde-format
+msgctxt "@title:column"
+msgid "Bug ID"
+msgstr "Felidentifierare"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:77
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Beskrivning"
+
+#. i18n: ectx: property (text), widget (QLabel, m_selectedPossibleDuplicatesLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:119
+#, kde-format
+msgctxt ""
+"@label title of a listbox where the possible duplicate bug numbers are put in"
+msgid "Possible duplicates:"
+msgstr "Möjliga dubbletter:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_showOwnBacktraceCheckBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog.ui:81
+#, kde-format
+msgctxt ""
+"@option:check user must check this to preview the own backtrace (in order to "
+"compare it with the one in the showed report)"
+msgid "Show the backtrace of the crash I experienced to compare (advanced)"
+msgstr ""
+"Visa bakåtspårning för kraschen jag upplevde för jämförelse (avancerat)"
+
+#. i18n: ectx: property (text), widget (QLabel, commonCrashLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:42
+#, kde-format
+msgid ""
+"This is likely to be a <strong>common crash</strong>, and a lot of different "
+"cases' details may have been provided already. <i>Proceed only if you can "
+"add new information (not already mentioned). </i>"
+msgstr ""
+"Det här är troligen en <strong>ofta förekommande krasch</strong>, och en hel "
+"del detaljer från olika fall kanske redan har tillhandahållits.<i>Fortsätt "
+"bara om du kan lägga till ny information (som inte redan nämns).</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, proceedLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:115
+#, kde-format
+msgid "<strong>Do you want to proceed with the reporting process?</strong>"
+msgstr "<strong>Vill du fortsätta med rapporteringsprocessen?</strong>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, proceedRadioNo)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:142
+#, kde-format
+msgid "No, do not file &a new bug report, and cancel the assistant"
+msgstr "Nej, skicka inte in någon ny felr&apport och avbryt guiden"
+
+#. i18n: ectx: property (text), widget (QRadioButton, proceedRadioYes)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:152
+#, kde-format
+msgid "Proceed with reporting &the bug"
+msgstr "For&tsätt att rapportera felet"
+
+#. i18n: ectx: property (text), widget (QLabel, areYouSureLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:182
+#, kde-format
+msgid "<strong>Are you sure this report matches your crash situation?</strong>"
+msgstr ""
+"<strong>Är du säker på att den här rapporten stämmer med din kraschsituation?"
+"</strong>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, markAsDuplicateCheck)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:209
+#, kde-format
+msgid "Not &really sure: mark as a possible duplicate"
+msgstr "Inte &riktigt säker: markera som möjlig dubblett"
+
+#. i18n: ectx: property (text), widget (QRadioButton, attachToBugReportCheck)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:219
+#, kde-format
+msgid "Completely sure: attach my &information to this report"
+msgstr "Helt säker: bilägg min &information i den här rapporten"
+
+#. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:30
+#, kde-format
+msgctxt "@info"
+msgid "<strong>Please provide the following information in English.</strong>"
+msgstr "<strong>Tillhandahåll följande information på engelska.</strong>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_titleLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:40
+#, kde-format
+msgctxt "@label:textbox"
+msgid "<strong>Title of the bug report:</strong> (<a href=\"#\">examples</a>)"
+msgstr "<strong>Felrapportens rubrik:</strong> (<a href=\"#\">exempel</a>)"
+
+#. i18n: ectx: property (text), widget (QLabel, m_detailsLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:52
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"<strong>Information about the crash:</strong> (<a href=\"#\">help and "
+"examples</a>)"
+msgstr ""
+"<strong>Information om kraschen:</strong>> (<a href=\"#\">hjälp och exempel</"
+"a>)"
+
+#. i18n: ectx: property (accessibleName), widget (QTextEdit, m_detailsEdit)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:61
+#, kde-format
+msgid "Information about the crash text"
+msgstr "Information om kraschtexten"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_distributionGroupBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:71
+#, kde-format
+msgctxt "@title:group"
+msgid "Distribution method:"
+msgstr "Distributionsmetod:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_compiledSourcesCheckBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:82
+#, kde-format
+msgctxt "@option:check"
+msgid "KDE Platform is compiled from sources"
+msgstr "KDE:s plattform är kompilerad från källkod"
+
+#. i18n: ectx: property (text), widget (QLabel, m_crashInfoLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:110
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<i>Note:</i> The crash and system information will be automatically added to "
+"the bug report."
+msgstr ""
+"<i>Observera:</i> Krasch- och systeminformation läggs automatiskt till i "
+"felrapporten."
+
+#. i18n: ectx: property (text), widget (QLabel, m_userLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:38
+#, kde-format
+msgctxt "@label:textbox bugzilla account email"
+msgid "E-mail Address:"
+msgstr "E-postadress:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:45
+#, kde-format
+msgctxt "@label:textbox bugzilla account password"
+msgid "Password:"
+msgstr "Lösenord:"
+
+#. i18n: ectx: property (accessibleName), widget (KPasswordLineEdit, m_passwordEdit)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:52
+#, kde-format
+msgid "Password input"
+msgstr "Inmatning av lösenord"
+
+#. i18n: ectx: property (accessibleName), widget (KLineEdit, m_userEdit)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:59
+#, kde-format
+msgid "Username input"
+msgstr "Inmatning av användarnamn"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_savePasswordCheckBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:71
+#, kde-format
+msgctxt "@option:check"
+msgid "Save login information using the KDE Wallet system"
+msgstr "Spara inloggningsinformation med användning av KDE:s plånbokssystem"
+
+#. i18n: ectx: property (text), widget (QLabel, m_previewDescriptionLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:19
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This is a preview of the report's contents which will be sent. \n"
+"\n"
+"If you want to modify it go to the previous pages."
+msgstr ""
+"Det här är en förhandsgranskning av innehållet i rapporten som kommer att "
+"skickas.\n"
+"\n"
+"Om du vill ändra den, gå tillbaka till föregående sidor."
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_launchPageOnFinish)
+#: bugzillaintegration/ui/assistantpage_bugzilla_send.ui:75
+#, kde-format
+msgctxt "@option:check"
+msgid "Open the bug report page when clicking the Finish button"
+msgstr "Visa felrapportsidan när knappen Slutför klickas"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
+#: bugzillaintegration/ui/assistantpage_bugzilla_send.ui:98
+#, kde-format
+msgctxt "@option:check"
+msgid "Restart the application when clicking the Finish button"
+msgstr "Starta om programmet när knappen Slutför klickas"
+
+#. i18n: status message while waiting for bugzilla
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: bugzillaintegration/ui/assistantpage_bugzilla_supported_entities.ui:47
+#, kde-format
+msgid "Resolving Bugzilla Product"
+msgstr "Löser upp Bugzilla produkt"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: bugzillaintegration/ui/assistantpage_bugzilla_version.ui:47
+#, kde-format
+msgid "Trying to contact bugs.kde.org..."
+msgstr "Försöker kontakta bugs.kde.org ..."
+
+#. i18n: @action:button retry talking to api if it failed before
+#. i18n: ectx: property (text), widget (QPushButton, retryButton)
+#: bugzillaintegration/ui/assistantpage_bugzilla_version.ui:126
+#, kde-format
+msgid "Retry"
+msgstr "Försök igen"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
+#: bugzillaintegration/ui/assistantpage_conclusions.ui:73
+#, kde-format
+msgid "Restart the application when clicking the Finish button"
+msgstr "Starta om programmet när knappen Slutför klickas"
+
+#. i18n: ectx: property (text), widget (QLabel, m_introLabel)
+#: bugzillaintegration/ui/assistantpage_introduction.ui:17
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This assistant will analyze the crash information and guide you through the "
+"bug reporting process."
+msgstr ""
+"Guiden analyserar kraschinformationen och leder dig genom "
+"felrapporteringsprocessen."
+
+#. i18n: ectx: property (text), widget (QLabel, m_warningLabel)
+#: bugzillaintegration/ui/assistantpage_introduction.ui:77
+#, kde-format
+msgctxt "@info note before starting the bug reporting process"
+msgid ""
+"<p><i>Note:</i> Since communication between you and the developers is "
+"required for effective debugging, to continue reporting this bug <strong>it "
+"is required for you to agree that developers may contact you.</strong></"
+"p><p>Feel free to close this dialog if you do not accept this.</p>"
+msgstr ""
+"<p><i>Observera:</i> Eftersom kommunikation mellan dig och utvecklarna krävs "
+"för effektiv felsökning, <strong>krävs att du går med på att utvecklarna får "
+"kontakta dig</strong> för att kunna fortsätta och rapportera felet.</"
+"p><p>Stäng gärna dialogrutan om du inte kan acceptera det.</p>"
+
+#: debugpackageinstaller.cpp:51
+#, kde-format
+msgctxt "@info:progress"
+msgid "Requesting installation of missing debug symbols packages..."
+msgstr "Begär installation av saknade paket med felsökningssymboler..."
+
+#: debugpackageinstaller.cpp:53
+#, kde-format
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: debugpackageinstaller.cpp:58
+#, kde-format
+msgctxt "@title:window"
+msgid "Missing debug symbols"
+msgstr "Saknar felsökningssymboler"
+
+#: debugpackageinstaller.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid "Could not find debug symbol packages for this application."
+msgstr "Kunde inte hitta paket med felsökningssymboler för det här programmet"
+
+#: debugpackageinstaller.cpp:98
+#, kde-format
+msgctxt "@info"
+msgid ""
+"An error was encountered during the installation of the debug symbol "
+"packages."
+msgstr ""
+"Ett fel påträffades vid installation av paketen med felsökningssymboler."
+
+#: drkonqi.cpp:147
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Report saved to <filename>%1</filename>."
+msgstr "Rapport sparad i <filename>%1</filename>."
+
+#: drkonqi.cpp:149
+#, kde-format
+msgctxt "@info"
+msgid "Could not create a file in which to save the report."
+msgstr "Kunde inte skapa en fil att spara rapporten i."
+
+#: drkonqi.cpp:156
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Filename"
+msgstr "Välj filnamn"
+
+#: drkonqi.cpp:184
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot open file <filename>%1</filename> for writing."
+msgstr "Kan inte öppna filen <filename>%1</filename> för skrivning."
+
+#: drkonqidialog.cpp:59
+#, kde-format
+msgctxt "@title:tab general information"
+msgid "&General"
+msgstr "A&llmänt"
+
+#: drkonqidialog.cpp:63
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Developer Information"
+msgstr "&Utvecklarinformation"
+
+#: drkonqidialog.cpp:98
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
+msgstr ""
+"<para>Tyvärr har <application>%1</application> avslutats oväntat.</para>"
+
+#: drkonqidialog.cpp:106
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>As the Crash Handler itself has failed, the automatic reporting "
+"process is disabled to reduce the risks of failing again.<nl /><nl />Please, "
+"<link url='%1'>manually report</link> this error to the KDE bug tracking "
+"system. Do not forget to include the backtrace from the <interface>Developer "
+"Information</interface> tab.</para>"
+msgstr ""
+"<para>Eftersom själva kraschhanteraren har misslyckats, har den automatiska "
+"rapporteringsprocessen inaktiverats för att reducera risken för ytterligare "
+"fel.<nl /><nl /><link url='%1'>Rapportera felet för hand</link> till KDE:s "
+"felspårningssystem. Glöm inte att inkludera bakåtspårningen från fliken "
+"<interface>Utvecklarinformation</interface>.</para>"
+
+#: drkonqidialog.cpp:116
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The reporting assistant is disabled because the crash handler dialog "
+"was started in safe mode.<nl />You can manually report this bug to %1 "
+"(including the backtrace from the <interface>Developer Information</"
+"interface> tab.)</para>"
+msgstr ""
+"<para>Rapporteringsguiden är inaktiverad eftersom dialogrutan för "
+"kraschhantering startades i säkert läge.<nl />Du kan rapportera felet för "
+"hand på %1 (inklusive bakåtspårningen från fliken "
+"<interface>Utvecklarinformation</interface>).</para>"
+
+#: drkonqidialog.cpp:125
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The reporting assistant is disabled because the crashed application "
+"appears to have been updated or uninstalled since it had been started. This "
+"prevents accurate crash reporting and can also be the cause of this crash.</"
+"para><para>After updating it is always a good idea to log out and back in to "
+"make sure the update is fully applied and will not cause any side effects.</"
+"para>"
+msgstr ""
+"<para>Rapporteringsguiden är inaktiverad eftersom programmet som kraschade "
+"verkar ha uppdaterats eller avinstallerats efter det hade startats. Det "
+"förhindrar riktig kraschrapportering och kan också vara anledningen till "
+"kraschen.</para><para>Efter uppdatering är det alltid en god idé att logga "
+"ut och in igen för att säkerställa att uppdateringen har verkställts "
+"fullständigt och inte orsakar några sidoeffekter.</para>"
+
+#: drkonqidialog.cpp:134
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>You can help us improve KDE Software by reporting this error.<nl /"
+"><link url='%1'>Learn more about bug reporting.</link></para>"
+msgstr ""
+"<para>Du kan hjälpa oss att förbättra KDE:s programvara genom att rapportera "
+"det här felet.<nl /><link url='%1'>Ta reda på mer om felrapportering.</"
+"link></para>"
+
+#: drkonqidialog.cpp:141
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>You cannot report this error, because <application>%1</application> "
+"does not provide a bug reporting address.</para>"
+msgstr ""
+"<para>Det går inte att rapportera felet, eftersom <application>%1</"
+"application> inte tillhandahåller en felrapporteringsadress.</para>"
+
+#: drkonqidialog.cpp:149
+#, kde-format
+msgctxt "@label"
+msgid "Details:"
+msgstr "Detaljinformation:"
+
+#: drkonqidialog.cpp:153
+#, kde-kuit-format
+msgctxt "@info Note the time information is divided into date and time parts"
+msgid ""
+"<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) "
+"Time: %5 %6</para>"
+msgstr ""
+"<para>Körbart program: <application>%1</application> PID: %2 Signal: %3 (%4) "
+"Tid: %5 %6</para>"
+
+#: drkonqidialog.cpp:183
+#, kde-format
+msgctxt ""
+"@action:button this is the debug menu button label which contains the "
+"debugging applications"
+msgid "&Debug"
+msgstr "Av&lusa"
+
+#: drkonqidialog.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Starts a program to debug the crashed application."
+msgstr "Startar ett program för att avlusa det kraschade programmet."
+
+#: drkonqidialog.cpp:207
+#, kde-format
+msgctxt "@action:button"
+msgid "Report &Bug"
+msgstr "Rapportera &fel"
+
+#: drkonqidialog.cpp:209
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Starts the bug report assistant."
+msgstr "Startar felrapporteringsguiden."
+
+#: drkonqidialog.cpp:218
+#, kde-format
+msgctxt "@action:button"
+msgid "&Restart Application"
+msgstr "Sta&rta om program"
+
+#: drkonqidialog.cpp:221
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to restart the crashed application."
+msgstr "Använd knappen för att starta om det kraschade programmet."
+
+#: drkonqidialog.cpp:231
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close this dialog (you will lose the crash information.)"
+msgstr "Stäng dialogrutan (kraschinformationen går förlorad)"
+
+#: drkonqidialog.cpp:240
+#, kde-format
+msgctxt "@action:inmenu 1 is the debugger name"
+msgid "Debug in %1"
+msgstr "Avlusa med %1"
+
+#: main.cpp:43
+#, kde-format
+msgid "The KDE Crash Handler gives the user feedback if a program has crashed."
+msgstr ""
+"KDE:s kraschhanterare ger återmatning till användaren om ett program har "
+"kraschat."
+
+#: main.cpp:113
+#, kde-format
+msgid "The KDE Crash Handler"
+msgstr "KDE:s kraschhanterare"
+
+#: main.cpp:117
+#, kde-format
+msgid "(C) 2000-2018, The DrKonqi Authors"
+msgstr "© 2000-2018, DrKonqi-upphovsmännen"
+
+#: main.cpp:118
+#, kde-format
+msgctxt "@info:credit"
+msgid "Hans Petter Bieker"
+msgstr "Hans Petter Bieker"
+
+#: main.cpp:119
+#, kde-format
+msgctxt "@info:credit"
+msgid "Dario Andres Rodriguez"
+msgstr "Dario Andres Rodriguez"
+
+#: main.cpp:120
+#, kde-format
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: main.cpp:121
+#, kde-format
+msgctxt "@info:credit"
+msgid "A. L. Spehr"
+msgstr "A. L. Spehr"
+
+#: main.cpp:128
+#, kde-format
+msgctxt "@info:shell"
+msgid "The signal <number> that was caught"
+msgstr "Signalen <nummer> som fångats upp"
+
+#: main.cpp:129
+#, kde-format
+msgctxt "@info:shell"
+msgid "<Name> of the program"
+msgstr "Programmets <namn>"
+
+#: main.cpp:130
+#, kde-format
+msgctxt "@info:shell"
+msgid "<Path> to the executable"
+msgstr "Den körbara filens <sökväg>"
+
+#: main.cpp:131
+#, kde-format
+msgctxt "@info:shell"
+msgid "The <version> of the program"
+msgstr "Programmets <version>"
+
+#: main.cpp:132
+#, kde-format
+msgctxt "@info:shell"
+msgid "The bug <address> to use"
+msgstr "Felrapportens <adress> att använda"
+
+#: main.cpp:133
+#, kde-format
+msgctxt "@info:shell"
+msgid "Translated <name> of the program"
+msgstr "Översatt <namn> på programmet"
+
+#: main.cpp:134
+#, kde-format
+msgctxt "@info:shell"
+msgid "Bugzilla product name"
+msgstr "Bugzilla produktnamn"
+
+#: main.cpp:135
+#, kde-format
+msgctxt "@info:shell"
+msgid "The <PID> of the program"
+msgstr "Programmets <processid>"
+
+#: main.cpp:136
+#, kde-format
+msgctxt "@info:shell"
+msgid "Startup <ID> of the program"
+msgstr "Programmets <startid>"
+
+#: main.cpp:137
+#, kde-format
+msgctxt "@info:shell"
+msgid "The program was started by kdeinit"
+msgstr "Programmet startades av kdeinit"
+
+#: main.cpp:138
+#, kde-format
+msgctxt "@info:shell"
+msgid "Disable arbitrary disk access"
+msgstr "Inaktivera godtycklig åtkomst av hårddisk"
+
+#: main.cpp:139
+#, kde-format
+msgctxt "@info:shell"
+msgid "The program has already been restarted"
+msgstr "Programmet har redan startats om"
+
+#: main.cpp:142
+#, kde-format
+msgctxt "@info:shell"
+msgid "Keep the program running and generate the backtrace at startup"
+msgstr "Låt programmet fortsätta köra och skapa bakåtspårningen vid start"
+
+#: main.cpp:144
+#, kde-format
+msgctxt "@info:shell"
+msgid "The <thread id> of the failing thread"
+msgstr "Den felaktiga trådens <trådidentifierare>"
+
+#: main.cpp:145
+#, kde-format
+msgctxt "@info:shell"
+msgid "Do not show a notification but launch the debug dialog directly"
+msgstr "Visa inte en underrättelse utan starta felsökningsdialogrutan direkt"
+
+#: statusnotifier.cpp:35
+#, kde-format
+msgctxt "Placeholder is an application name; it crashed"
+msgid "%1 Closed Unexpectedly"
+msgstr "%1 stängdes oväntat"
+
+#: statusnotifier.cpp:65
+#, kde-format
+msgid "Please report this error to help improve this software."
+msgstr "Rapportera gärna felet för att hjälpa till att förbättra programvaran."
+
+#: statusnotifier.cpp:72
+#, kde-format
+msgid "Report &Bug"
+msgstr "Rapportera &fel"
+
+#: statusnotifier.cpp:78
+#, kde-format
+msgid "&Restart Application"
+msgstr "Sta&rta om program"
+
+#: statusnotifier.cpp:89
+#, kde-format
+msgctxt "Allows the user to hide this notifier item"
+msgid "Hide"
+msgstr "Dölj"
+
+#: statusnotifier.cpp:132
+#, kde-format
+msgctxt "Notification text"
+msgid "Please report this error to help improve this software."
+msgstr "Rapportera gärna felet för att hjälpa till att förbättra programvaran."
+
+#: statusnotifier.cpp:133
+#, kde-format
+msgctxt "Notification text"
+msgid "The application closed unexpectedly."
+msgstr "Programmet stängdes oväntat."
+
+#: statusnotifier.cpp:144
+#, kde-format
+msgctxt "Notification action button, keep short"
+msgid "Report Bug"
+msgstr "Rapportera fel"
+
+#: statusnotifier.cpp:147
+#, kde-format
+msgctxt "Notification action button, keep short"
+msgid "Restart App"
+msgstr "Starta om program"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_toggleBacktraceCheckBox)
+#: ui/backtracewidget.ui:124
+#, kde-format
+msgid "Show backtrace content (advanced)"
+msgstr "Visa bakåtspårningens innehåll (avancerat)"

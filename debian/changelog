@@ -1,0 +1,302 @@
+drkonqi (5.23.3-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 10 Nov 2021 08:37:07 +0900
+
+drkonqi (5.23.2-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Update upstream signing-key.
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.1).
+  * New upstream release (5.23.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Nov 2021 22:21:01 +0900
+
+drkonqi (5.23.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.0).
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 14 Oct 2021 20:13:13 +0900
+
+drkonqi (5.21.5-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Release to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 17 Aug 2021 03:23:08 +0200
+
+drkonqi (5.21.5-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.5).
+
+ -- Patrick Franz <patfra71@gmail.com>  Fri, 07 May 2021 13:53:49 +0200
+
+drkonqi (5.21.4-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.4).
+
+ -- Patrick Franz <patfra71@gmail.com>  Tue, 06 Apr 2021 17:46:16 +0200
+
+drkonqi (5.21.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Mar 2021 05:49:40 +0900
+
+drkonqi (5.21.2-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Mar 2021 05:33:48 +0900
+
+drkonqi (5.21.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.1).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 24 Feb 2021 14:36:38 +0900
+
+drkonqi (5.21.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Feb 2021 05:42:26 +0900
+
+drkonqi (5.20.5-1) unstable; urgency=medium
+
+  * New upstream release (5.20.5).
+  * Reformat long description to make lintian happy.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 06 Jan 2021 23:50:50 +0900
+
+drkonqi (5.20.4-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 22 Dec 2020 11:04:36 +0900
+
+drkonqi (5.20.4-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.20.4).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 09 Dec 2020 14:17:31 +0900
+
+drkonqi (5.19.5-3) unstable; urgency=medium
+
+  [ Scarlett Moore ]
+  * Add missing d/upstream/metadata.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 06 Nov 2020 08:37:21 +0900
+
+drkonqi (5.19.5-2) experimental; urgency=medium
+
+  * Rebuild for Qt 5.15
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 02 Nov 2020 09:27:39 +0900
+
+drkonqi (5.19.5-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.19.5).
+  * Add Patrick and myself to uploaders.
+
+  [ Scarlett Moore ]
+  * Improve Long Description in d/control.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 19 Oct 2020 10:25:31 +0900
+
+drkonqi (5.19.4-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Scarlett Moore ]
+  * Bump compat level to 13.
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (5.18.5).
+  * Update build-deps and deps with the info from cmake.
+  * Remove not needed injection of linker flags.
+  * Add myself to Uploaders.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Set/Update field Upstream-Contact in debian/copyright.
+  * Improve Long Description in d/control.
+
+  [ Patrick Franz ]
+  * Add hardening=+all build flag.
+  * Update matching files in debian/copyright.
+  * New upstream release (5.19.4).
+  * Update build-deps and deps with the info from cmake.
+  * Change Maintainer in debian/control to Debian Qt/KDE Maintainers.
+  * Remove Maxy from Uploaders as requested.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 29 Aug 2020 23:29:54 +0200
+
+drkonqi (5.17.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * Bump Standards-Version to 4.5.0, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 14 Feb 2020 21:40:48 +0100
+
+drkonqi (5.17.5-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.16.5):
+    - fixes crash when showing the backtrace (Closes: #928710)
+  * Salsa CI automatic initialization by Tuco
+  * Update build-deps and deps with the info from cmake
+
+  [ Pino Toscano ]
+  * New upstream release:
+    - supports large backtraces (Closes: #946618)
+  * Update the build dependencies according to the upstream build system:
+    - bump KF packages to 5.61.0
+    - remove unused libkf5windowsystem-dev, libkf5xmlrpcclient-dev, and
+      zlib1g-dev
+    - explicitly add gettext
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+  * Remove unused debian/cmake-ignore, and debian/meta stuff.
+  * Bump Standards-Version to 4.4.1, no changes required.
+  * Disable the unit tests for now, as they require kioslaves:
+    - pass -DBUILD_TESTING=OFF to cmake to not build the tests
+    - override dh_auto_test to do nothing
+  * Unregister drkonqi.categories as conffile, as it is no more in /etc.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 18 Jan 2020 00:29:22 +0100
+
+drkonqi (5.14.5-1) unstable; urgency=medium
+
+  * New upstream release (5.14.5).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 24 Jan 2019 09:25:41 -0300
+
+drkonqi (5.14.3-1) unstable; urgency=medium
+
+  * Update upsteam signing-key
+  * New upstream release (5.14.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.14)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Nov 2018 08:50:26 -0300
+
+drkonqi (5.13.4-1) unstable; urgency=medium
+
+  * New upstream release (5.13.4).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 23:17:51 +0200
+
+drkonqi (5.13.1-1) unstable; urgency=medium
+
+  * New upstream release (5.13.1).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.13)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:42:48 +0200
+
+drkonqi (5.12.5-1) unstable; urgency=medium
+
+  * New upstream release (5.12.5).
+  * Bump Standards-Version to 4.1.4.
+  * Use https for the debian/copyright
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 May 2018 13:23:50 +0200
+
+drkonqi (5.12.3-1) sid; urgency=medium
+
+  * New upstream release (5.12.2).
+  * New upstream release (5.12.3).
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Mar 2018 19:14:03 +0100
+
+drkonqi (5.12.1-1) sid; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.12.1).
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Feb 2018 22:08:38 +0100
+
+drkonqi (5.12.0-2) sid; urgency=medium
+
+  * New revision
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:03:26 +0100
+
+drkonqi (5.12.0-1) experimental; urgency=medium
+
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Add link options as-needed
+  * Add Bhushan Shah upstream signing key
+  * New upstream release (5.12.0).
+  * Bump Standards-Version to 4.1.3.
+  * Bump group breaks (5.12)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Feb 2018 15:20:27 +0100
+
+drkonqi (5.11.4-1) experimental; urgency=medium
+
+  * Update Vcs fields
+  * Bump Standards-Version to 4.1.2.
+  * Update copyright file
+  * watch: Use https uris
+  * Update build-deps and deps with the info from cmake
+  * Add missing breaks/replaces against plasma-workspace
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:48:44 -0300
+
+drkonqi (5.11.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 28 Nov 2017 16:59:09 +0000
+
+drkonqi (5.11.3-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 07 Nov 2017 15:01:55 +0000
+
+drkonqi (5.11.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 24 Oct 2017 16:31:16 +0000
+
+drkonqi (5.11.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 17 Oct 2017 13:44:11 +0000
+
+drkonqi (5.11.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 25 Apr 2017 15:42:30 +0000
